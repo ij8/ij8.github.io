@@ -1,0 +1,82 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, ol, ul, li, blockquote, pre, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, section, summary, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: basseline;
+}
+
+body, p {
+	line-height: 1.2;
+	font-family: Georgia, serif;
+	font-size: 10pt;
+	/*This is blue*/
+	/*background-color:#B3B6FF;*/
+	/*This is Beige*/
+	background-color:#FCF7BD;
+	/*This is white*/	
+	/*background-color: #FFFFFF;*/
+}
+
+.main-container	{
+	height: 500px;
+	width:1000px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	vertical-align: center;
+	font-family: Tahoma;
+	/*background-color:#B3B6FF;*/
+	background-image: url("img/NYBG.jpg");
+	background-size: 1000px auto;
+}
+
+.page-header	{
+	height: 90px;
+	width:500px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	vertical-align: center;
+	background-image: url("img/ILoveAprilBecause.jpg");
+	background-size: 500px auto;
+}
+
+.main-header, .main-body	{
+	font-family: Tahoma;
+}
+
+.main-header	{
+	/*Original Styling*/
+	/*
+	padding-top: 50px;
+	font-size: 15pt;
+	*/
+	height: 95px;
+	width:500px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	vertical-align: center;
+	background-image: url("img/ILoveAprilBecause.jpg");
+	background-size: 500px auto;
+}
+
+.main-body	{
+	margin: 0px 10px 50px 10px;
+	font-size: 20pt;
+	height: 275px;
+}
+
+input[type=submit]{
+	margin: 0px 0px 10px 10px
+	border-radius: 5px;
+	border: 0;
+	height:25px;
+	font-family: Tahoma;
+	background: #f4f4f4;
+	/**When button is selected, want color to be #929292*/
+}
