@@ -26,4 +26,4 @@ function bgCycle(){
 
 	startTimer();
 }
-window.onload=bgCyle;
+window.onload=bgCycle;
