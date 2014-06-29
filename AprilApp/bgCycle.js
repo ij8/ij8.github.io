@@ -36,7 +36,7 @@ function bgCycle(){
     	}, 50);
 	}
 
-	function fadein(element)	{
+	function fadeIn(element)	{
 		var op = 0;  // initial opacity
     	var timer = setInterval(function () {
     		if (op >= 1){
