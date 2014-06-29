@@ -4,8 +4,10 @@ function bgCycle(){
 		// document.getElementById("img").src = image;
 		// document.getElementById("container").style.backgroundImage = "url(" + image + ")";
 		fadeOut(document.getElementById("container"));
-		// document.getElementById("container").style.backgroundImage = "url(" + image + ")";
-		// fadeIn(document.getElementById("container"));
+		window.setTimeout(function(){
+			document.getElementById("container").style.backgroundImage = "url(" + image + ")";
+			fadeIn(document.getElementById("container"));
+		},500);
 
 	}
 
