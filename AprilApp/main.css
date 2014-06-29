@@ -70,7 +70,14 @@ body, p {
 	font-size: 20pt;
 	height: 275px;
 }
-
+#reasonButton	{
+	margin: 0px 0px 10px 10px
+	border-radius: 5px;
+	border: 0;
+	height:25px;
+	font-family: Tahoma;
+	background: #f4f4f4;
+}
 input[type=submit]{
 	margin: 0px 0px 10px 10px
 	border-radius: 5px;
