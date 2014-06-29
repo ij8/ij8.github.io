@@ -70,7 +70,7 @@ body, p {
 	font-size: 20pt;
 	height: 275px;
 }
-#reasonButton	{
+buton[type=submit]	{
 	margin: 0px 0px 10px 10px
 	border-radius: 5px;
 	border: 0;
