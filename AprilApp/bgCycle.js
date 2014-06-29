@@ -7,7 +7,7 @@ function bgCycle(){
 		window.setTimeout(function(){
 			document.getElementById("container").style.backgroundImage = "url(" + image + ")";
 			fadeIn(document.getElementById("container"));
-		},1000);
+		},1500);
 
 	}
 
@@ -22,7 +22,7 @@ function bgCycle(){
 	}
 
 	function startTimer() {
-		setInterval(displayNextImage, 5000);
+		setInterval(displayNextImage, 7000);
 	}
 
 	function fadeOut(element) {
