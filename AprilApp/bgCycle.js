@@ -2,7 +2,7 @@ function bgCycle(){
 
 	function displayImage(image) {
 		// document.getElementById("img").src = image;
-		document.getElementById("container").style.backgroundImage = "url(image)";
+		document.getElementById("container").style.backgroundImage = "url(" + image + ")";
 	}
 
 	function displayNextImage() {
