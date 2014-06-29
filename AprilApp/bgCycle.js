@@ -2,7 +2,11 @@ function bgCycle(){
 
 	function displayImage(image) {
 		// document.getElementById("img").src = image;
+		// document.getElementById("container").style.backgroundImage = "url(" + image + ")";
+		fadeOut(document.getElementById("container"));
 		document.getElementById("container").style.backgroundImage = "url(" + image + ")";
+		fadeIn(document.getElementById("container"));
+
 	}
 
 	function displayNextImage() {
@@ -17,6 +21,32 @@ function bgCycle(){
 
 	function startTimer() {
 		setInterval(displayNextImage, 3000);
+	}
+
+	function fadeOut(element) {
+    	var op = 1;  // initial opacity
+    	var timer = setInterval(function () {
+    		if (op <= 0.1){
+    			clearInterval(timer);
+    			element.style.display = 'none';
+    		}
+    		element.style.opacity = op;
+    		element.style.filter = 'alpha(opacity=' + op * 100 + ")";
+    		op -= op * 0.1;
+    	}, 50);
+	}
+
+	function fadein(element)	{
+		var op = 0;  // initial opacity
+    	var timer = setInterval(function () {
+    		if (op >= 1){
+    			clearInterval(timer);
+    			element.style.display = '';
+    		}
+    		element.style.opacity = op;
+    		element.style.filter = 'alpha(opacity=' + op * 100 + ")";
+    		op += op * 0.1;
+    	}, 50);
 	}
 
 	var images = [], x = -1;
