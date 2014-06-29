@@ -47,7 +47,7 @@ function bgCycle(){
     		}
     		element.style.opacity = op;
     		element.style.filter = 'alpha(opacity=' + op * 100 + ")";
-    		op += .05;
+    		op += .001;
     	}, 50);
 	}
 
