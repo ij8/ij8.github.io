@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Root>
 	<head>
-		Access-Control-Allow-Origin: http://gsatest/
+		Access-Control-Allow-Origin: *
 	</head>
 	<TermDef>
 		<Term>Add terms to this column</Term>
