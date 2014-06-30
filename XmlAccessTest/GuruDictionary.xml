@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<head>
+	Access-Control-Allow-Origin: *
+</head>
 <Root>
 	<TermDef>
 		<Term>Add terms to this column</Term>
