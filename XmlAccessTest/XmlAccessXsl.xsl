@@ -50,6 +50,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       defInput = x.elements[1].value; 
       
       //Initialize the new TermDef node
+      /*
       newNode=xmlDoc.createElement("TermDef");
       newTerm=xmlDoc.createElement("Term");
       newTerm.nodeValue=termInput;
@@ -58,8 +59,13 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       newNode.appendChild(newTerm);
       newNode.appendChild(newDef);
       
+      
       root = xmlDoc.getElementsByTagName("Root")[0];
       root.appendChild(newNode);
+      */
+      
+      y=xmlDoc.getElementsByTagName("TermDef")[0];
+      xmlDoc.documentElement.removeChild(y);
     }
   </xsl:comment>
 </script>
