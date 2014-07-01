@@ -42,7 +42,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     }
     
     function addDictionaryResult()  {
-      xmlDoc = loadXmlDoc("GuruDictionary.xml");
+      xmlDoc = loadXMLDoc("GuruDictionary.xml");
       
       //Form Elements
       var x = document.getElementById("addTerm");
