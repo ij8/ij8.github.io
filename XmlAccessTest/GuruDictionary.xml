@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <?xml-stylesheet type="text/xsl" href="XmlAccessXsl.xsl"?>
 <Root>
-	<head>
-		Access-Control-Allow-Origin: *
-	</head>
 	<TermDef>
 		<Term>Add terms to this column</Term>
 		<Definition>Add the definitions of adjacent terms in this column (Note: make sure to expand the overall box of terms and definitions if needed).</Definition>
