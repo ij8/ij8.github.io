@@ -13,6 +13,9 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       <button type="submit" onclick="addDictionaryResult();">Add</button>
     </form>
     <h2>Terms</h2>
+    <?php
+      echo "Hello World";
+    ?>
     <table border="1">
       <tr bgcolor="#9acd32">
         <th>Term</th>
