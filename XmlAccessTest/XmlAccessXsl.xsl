@@ -8,8 +8,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <body>
     <h2>Add Term and Definition</h2>
     <form id="addTerm">
-      Term: <input type="text" name="termInput" value=""><br>
-      Definition: <input type="text" name="defInput" value=""><br>
+      Term: <input type="text" name="termInput" value=""/><br/>
+      Definition: <input type="text" name="defInput" value=""/><br/>
       <button type="submit" onclick="addDictionaryResult();">Add</button>
     </form>
     <h2>Terms</h2>
