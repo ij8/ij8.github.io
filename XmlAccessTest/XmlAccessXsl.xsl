@@ -53,7 +53,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       newNode=xmlDoc.createElement("TermDef");
       newTerm=xmlDoc.createElement("Term");
       newTerm.nodeValue=termInput;
-      newDef=xmlDoc.createElemtn("Definition");
+      newDef=xmlDoc.createElement("Definition");
       newTerm.nodeValue=defInput;
       newNode.appendChild(newTerm);
       newNode.appendChild(newDef);
