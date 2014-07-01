@@ -25,11 +25,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         </tr>
       </xsl:for-each>
     </table>
-  </body>
-  </html>
-</xsl:template>
-
-<script type="text/javascript">
+    <script type="text/javascript">
   <xsl:comment>
     function loadXMLDoc(filename) {
       if (window.XMLHttpRequest)
@@ -67,4 +63,9 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     }
   </xsl:comment>
 </script>
+  </body>
+  </html>
+</xsl:template>
+
+
 </xsl:stylesheet>
