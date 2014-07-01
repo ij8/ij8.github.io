@@ -15,6 +15,50 @@
 		<Term>FHA</Term>
 		<Definition>"The Federal Housing Administration (FHA) is a United States government agency created as part of the National Housing Act of 1934. It sets standards for construction and underwriting and insures loans made by banks and other private lenders for home building. The goals of this organization are to improve housing standards and conditions, provide an adequate home financing system through insurance of mortgage loans, and to stabilize the mortgage market." -Wikipedia</Definition>
 	</TermDef>
+		<TermDef>
+		<Term>Consumer Credit Counseling </Term>
+		<Definition>Consumer Credit Counseling (CCC) is typically a paid service for consumers that helps them set up a budget and repayment plan with creditors. The counselor also usually tries to work with creditors to lower interest rates and fees.</Definition>
+	</TermDef>
+	<TermDef>
+		<Term>Foreclosure</Term>
+		<Definition>AKA: "Breach, Court Sale, Deed Substitution of Trustee, Lis Pendens, Notice of Pendency, Sheriff’s Sale, Trustee Sale".
+A foreclosure is a specific legal process in which a lender attempts to recover the balance of a loan from a client who has stopped making payments by forcing the sale of the mortgaged property.
+</Definition>
+	</TermDef>
+	<TermDef>
+		<Term>Modifications</Term>
+		<Definition>A loan modification is a change to one or more of the terms of a client's loan and usually results in a payment that the client can afford. A modification is evidenced by a status on the credit report, the payoff or a new Note. &lt;br&gt; Common terms for a modification include but are not limited to: Partial Payment Forbearance (Principal or Interest), Modified, Principal Deferral, Interest Rate Reduction, Term Extension, Conditional Forbearance.</Definition>
+	</TermDef>
+	<TermDef>
+		<Term>Public Records</Term>
+		<Definition>Public records are documents or pieces of information that are not considered confidential. The following are considered public records: &lt;br&gt; A judgment is a legal document stating the reasons for a judicial decision by the court against a debtor, usually indicating that the debtor owes further money. &lt;br&gt; A lien is a legal claim or form of security interest granted over an item of property to secure the payment of a debt.
+A lien is a legal claim or form of security interest granted over an item of property to secure the payment of a debt.
+A judgment is a legal document stating the reasons for a judicial decision by the court against a debtor, usually indicating that the debtor owes further money.</Definition>
+	</TermDef>
+	<TermDef>
+		<Term>Reposessions</Term>
+		<Definition>Repossessions refer to a process where a financial institution or auto lender can take back an object, usually a vehicle, which was either used as collateral, rented, or leased in a transaction because payments are not being made.</Definition>
+	</TermDef>
+	<TermDef>
+		<Term>Restructured Mortgage</Term>
+		<Definition>A restructured mortgage, also known as an absolute forgiveness of debt, occurs when there is a modification of the original mortgage or an origination of a new mortgage that results in one of the following: &lt;br&gt; -Forgiveness of a portion of the principal balance or interest, on either a 1st or 2nd mortgage &lt;br&gt; -A principal curtailment by the investor &lt;br&gt; -A principal curtailment by the investor &lt;br&gt; -Conversion of a portion of the original mortgage to a subordinate mortgage or from secured to unsecured</Definition>
+	</TermDef>
+	<TermDef>
+		<Term>Short Sale </Term>
+		<Definition>AKA: "Settled for Less, Discounted Payoff, Equity Deficient" &lt;br&gt; A short sale is the sale of a house in which the proceeds are less than what the owner still owes on the mortgage. The lender agrees to payoff of a lesser amount than actually owed, even on a current mortgage, to facilitate the sale of the property to a third party.</Definition>
+	</TermDef>
+	<TermDef>
+		<Term>Deed-in-Lieu</Term>
+		<Definition>A deed-in-lieu of foreclosure is a transaction in which the deed to the property is transferred back to the servicer. &lt;br&gt; When determining if the client meets the approved deed-in-lieu timeline, use the date of the foreclosure or the date the property transferred out of the foreclosed client's name, whichever is most recent.</Definition>
+	</TermDef>
+	<TermDef>
+		<Term>College Savings Plan</Term>
+		<Definition>Plan where funds are contributed to a state-managed investement account in exchange for federal tax-free earnings. </Definition>
+	</TermDef>
+	<TermDef>
+		<Term>Pre-Paid Tuition Plan</Term>
+		<Definition>Plan where participants lock in future tuition fees at today's prices. </Definition>
+	</TermDef>
 	<TermDef>
 		<Term/>
 		<Definition/>
