@@ -17,7 +17,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <form id="searchTerm">
       <input type="text" name="query" id="termInput" value=""/><br/>
       <!-- <button type="submit" onclick="searchTermDef();">Search</button> -->
-      <button type="submit">Search</button>
+      <button onclick="searchTermDef();">Search</button>
     </form>
 
     <xsl:variable name="queryVal" select="termInput"/>
@@ -77,7 +77,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       xmlDoc=xmlhttp.responseXML;
 
       <!-- searchTerm=document.getElementById("termInput").value; -->
-      searchTerm=<xsl:value-of select="$queryVal"/>
+      searchTerm=<xsl:value-of select="termInput"/>
       e=document.getElementById("term");
       f=document.getElementById("definition");
       var x = xmlDoc.getElementsByTagName("TermDef");
