@@ -20,7 +20,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       <button type="submit">Search</button>
     </form>
 
-    <xsl:variable name="queryVal" select="PARAM[@name='query']/@value"/>
+    <xsl:variable name="queryVal" select="$('#termInput').formSerialize();"/>
     
     <div class="main-container">
       <div>Hello World</div>
