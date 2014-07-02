@@ -16,15 +16,20 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
     <form id="searchTerm">
       <input type="text" name="query" id="termInput" value=""/><br/>
-      <button type="submit" onclick="searchTermDef();">Search</button>
+      <!-- <button type="submit" onclick="searchTermDef();">Search</button> -->
+      <button type="submit">Search</button>
     </form>
 
     <xsl:variable name="queryVal" select="PARAM[@name='query']/@value"/>
     
     <div class="main-container">
         <div>Hello World</div>
-        <div id="term"></div>
-        <div id="definition"></div>
+        <xsl:for-each select="Root/TermDef">
+          <xsl:if test="<xsl:value-of select="Term"/> = $queryVal">
+            <div id="term"><xsl:value-of select="Term"/></div>
+            <div id="definition"><xsl:value-of select="Definition"/></div>
+        </tr>
+      </xsl:for-each>
     </div>
 
     <!-- This is the Information Contained in the XML File -->
