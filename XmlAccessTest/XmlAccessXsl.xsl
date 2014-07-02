@@ -16,7 +16,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
     <form id="searchTerm">
       <input type="text" id="termInput" value=""/><br/>
-      <button type="submit" onclick="searchTermDef();">Search</button>
+      <button onclick="searchTermDef();">Search</button>
     </form>
 
     <div class="main-container">
