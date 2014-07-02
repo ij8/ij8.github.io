@@ -15,8 +15,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     </form> -->
 
     <form id="searchTerm">
-      <input type="text" id="termInput" value=""/><br/>
-      <button type="submit" name="query" onclick="searchTermDef();">Search</button>
+      <input type="text" name="query" id="termInput" value=""/><br/>
+      <button type="submit" onclick="searchTermDef();">Search</button>
     </form>
 
     <xsl:variable name="queryVal" select="PARAM[@name='query']/@value"/>
