@@ -26,6 +26,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       <div>Hello World</div>
       <xsl:for-each select="Root/TermDef">
         <xsl:variable name="currentTerm"><xsl:value-of select="Term"/></xsl:variable>
+        <div><xsl:value-of select="$currentTerm"/>  <xsl:value-of select="$queryVal"/></div>
         <xsl:if test="$currentTerm = $queryVal">
           <div id="term"><xsl:value-of select="Term"/></div>
           <div id="definition"><xsl:value-of select="Definition"/></div>
