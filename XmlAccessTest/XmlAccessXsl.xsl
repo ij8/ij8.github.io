@@ -16,9 +16,11 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
     <form id="searchTerm">
       <input type="text" id="termInput" value=""/><br/>
-      <button onclick="searchTermDef();">Search</button>
+      <button type="submit" name="query" onclick="searchTermDef();">Search</button>
     </form>
 
+    <xsl:variable name="queryVal" select="PARAM[@name='query']/@value"/>
+    
     <div class="main-container">
         <div>Hello World</div>
         <div id="term"></div>
@@ -66,7 +68,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       xmlhttp.send();
       xmlDoc=xmlhttp.responseXML;
 
-      searchTerm=document.getElementById("termInput").value;
+      <!-- searchTerm=document.getElementById("termInput").value; -->
+      searchTerm=<xsl:value-of select="$queryVal"/>
       e=document.getElementById("term");
       f=document.getElementById("definition");
       var x = xmlDoc.getElementsByTagName("TermDef");
