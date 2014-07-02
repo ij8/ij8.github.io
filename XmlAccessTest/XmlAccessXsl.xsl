@@ -70,7 +70,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       e=document.getElementById("term");
       f=document.getElementById("definition");
       var x = xmlDoc.getElementsByTagName("TermDef");
-      for (i=0;i<x.length;i++)  {
+      for (i=0;i&lt;x.length;i++)  {
         if(x[i].getElementsByTagName("Term")[0].childNodes[0].nodeValue.toLowerCase() == searchTerm.toLowerCase())  {
           e.innerHTML = x[i].getElementsByTagName("Term")[0].childNodes[0].nodeValue;
           f.innerHTML = x[i].getElementsByTagName("Definition")[0].childNodes[0].nodeValue;
