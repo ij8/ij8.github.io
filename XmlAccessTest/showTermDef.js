@@ -1,4 +1,4 @@
-function showTermDef(searchTerm)	{
+function showTermDef()	{
 	if(window.XMLHttpRequest)	{
 		xmlhttp=new XMLHttpRequest();
 	}

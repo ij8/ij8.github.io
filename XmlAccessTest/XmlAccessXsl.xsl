@@ -7,15 +7,26 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <html>
   <body>
     <h2>Add Term and Definition</h2>
-    <form id="addTerm">
+
+    <!-- <form id="addTerm">
       Term: <input type="text" name="termInput" value=""/><br/>
       Definition: <input type="text" name="defInput" value=""/><br/>
       <button type="submit" onclick="addDictionaryResult();">Add</button>
+    </form> -->
+
+    <form id="searchTerm">
+      <input type="text" id="termInput" value=""/><br/>
+      <button type="submit" onclick="searchTermDef();">Search</button>
     </form>
-    <h2>Terms</h2>
-    <?php
-      echo "Hello World";
-    ?>
+
+    <div class="main-container">
+        <div>Hello World</div>
+        <div id="term"></div>
+        <div id="definition"></div>
+    </div>
+
+    <!-- This is the Information Contained in the XML File -->
+    <!-- <h2>Terms</h2>
     <table border="1">
       <tr bgcolor="#9acd32">
         <th>Term</th>
@@ -27,7 +38,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
           <td><xsl:value-of select="Definition"/></td>
         </tr>
       </xsl:for-each>
-    </table>
+    </table> -->
     <script type="text/javascript">
   <xsl:comment>
     function loadXMLDoc(filename) {
@@ -43,7 +54,31 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       xhttp.send();
       return xhttp.responseXML;
     }
-    
+
+    function searchTermDef()  {
+      if(window.XMLHttpRequest) {
+        xmlhttp=new XMLHttpRequest();
+      }
+      else{
+        xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+      }
+      xmlhttp.open("GET","GuruDictionary.xml",false);
+      xmlhttp.send();
+      xmlDoc=xmlhttp.responseXML;
+
+      searchTerm=document.getElementById("termInput").value;
+      e=document.getElementById("term");
+      f=document.getElementById("definition");
+      var x = xmlDoc.getElementsByTagName("TermDef");
+      for (i=0;i<x.length;i++)  {
+        if(x[i].getElementsByTagName("Term")[0].childNodes[0].nodeValue.toLowerCase() == searchTerm.toLowerCase())  {
+          e.innerHTML = x[i].getElementsByTagName("Term")[0].childNodes[0].nodeValue;
+          f.innerHTML = x[i].getElementsByTagName("Definition")[0].childNodes[0].nodeValue;
+          break;
+        }
+      }
+    }
+
     function addDictionaryResult()  {
       xmlDoc = loadXMLDoc("GuruDictionary.xml");
       
