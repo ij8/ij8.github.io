@@ -10,32 +10,55 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
     <form id="searchTerm">
       <input type="text" name="query" id="termInput"/><br/>
-      <!-- <button type="submit" onclick="searchTermDef();">Search</button> -->
-      <button type="button" onclick="searchTermDef2();">Search</button>
+      <button type="button" onclick="searchTermDef();">Search</button>
     </form>
 
-    <xsl:variable name="queryVal" select="termInput"/>
-    
     <div class="main-container">
-      <div>Hello World</div>
-      <div><xsl:value-of select="termInput"/></div><br/>
-      
-      <div id="term"><xsl:value-of select="Term"/></div>
-      <div id="definition"><xsl:value-of select="Definition"/></div>
-      
-      <!-- <xsl:for-each select="Root/TermDef">
-        <xsl:variable name="currentTerm"><xsl:value-of select="Term"/></xsl:variable> -->
-        <!-- <div><xsl:value-of select="$currentTerm"/></div> -->
-        <!-- <xsl:if test="$currentTerm = $queryVal">
-          <div id="term"><xsl:value-of select="Term"/></div>
-          <div id="definition"><xsl:value-of select="Definition"/></div>
-        </xsl:if>
-      </xsl:for-each> -->
-    
+      <div>Hello World</div>      
+      <div id="term"></div>
+      <div id="definition"><</div>
     </div>
 
     <style type="text/css">
       <xsl:comment>
+        html, body, div, span, h1, h2, h3, h4, h5, h6, p, ol, ul, li, blockquote, pre, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, section, summary, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: basseline;
+}
+body, p {
+  line-height: 1.2;
+  font-family: Georgia, serif;
+  font-size: 10pt;
+  /*This is blue*/
+  /*background-color:#B3B6FF;*/
+  background-color: #FFFFFF;
+}
+.main-container {
+  width:100%;
+  margin-top: 200px;
+  text-align: center;
+  vertical-align: center;
+  font-family: Tahoma;
+}
+.main-header  {
+  font-size: large;
+}
+.main-body  {
+  font-size: small;
+}
+input[type=submit] {
+  margin: 0px 0px 10px 10px
+  border-radius: 5px;
+  border: 0;
+  height:25px;
+  font-family: Tahoma;
+  background: #f4f4f4;
+  /**When button is selected, want color to be #929292*/
+}
+
       </xsl:comment>
     </style>
 
@@ -56,22 +79,6 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     }
 
     function searchTermDef()  {
-      xmlDoc = loadXMLDoc("GuruDictionary.xml");
-      searchTerm=document.getElementById("termInput").value;
-      <!-- searchTerm=<xsl:value-of select="termInput"/> -->
-      e=document.getElementById("term");
-      f=document.getElementById("definition");
-      var x = xmlDoc.getElementsByTagName("TermDef");
-      for (i=0;i&lt;x.length;i++)  {
-        if(x[i].getElementsByTagName("Term")[0].childNodes[0].nodeValue.toLowerCase() == 'searchTerm.toLowerCase()')  {
-          e.innerHTML = x[i].getElementsByTagName("Term")[0].childNodes[0].nodeValue;
-          f.innerHTML = x[i].getElementsByTagName("Definition")[0].childNodes[0].nodeValue;
-          break;
-        }
-      }
-    }
-
-    function searchTermDef2()  {
       xmlDoc = loadXMLDoc("GuruDictionary.xml");
       searchTerm=document.getElementById("termInput").value;
       e=document.getElementById("term");
