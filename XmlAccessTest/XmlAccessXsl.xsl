@@ -82,6 +82,10 @@ body, p {
 .search-row {
   width:180px;
   height:30px;
+  margin-left:auto;
+  margin-right:auto;
+  text-aign:center;
+  vertical-alrign:center;
 }
 input[type=button]  {
   margin: 0px 0px 10px 10px
