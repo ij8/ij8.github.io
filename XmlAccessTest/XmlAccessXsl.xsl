@@ -31,6 +31,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
     <style type="text/css">
       <xsl:comment>
+      </xsl:comment>
+    </style>
 
     <script type="text/javascript">
   <xsl:comment>
