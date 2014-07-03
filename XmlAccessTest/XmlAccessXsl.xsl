@@ -80,7 +80,7 @@ body, p {
   height: 100px;
 }
 .search-row {
-  width:175px;
+  width:180px;
   height:30px;
 }
 input[type=button]  {
