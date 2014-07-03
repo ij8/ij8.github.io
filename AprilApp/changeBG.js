@@ -55,18 +55,18 @@ function changeBG(imgNum){
 		btn2=document.getElementById("btn2");
 		if(imgNum = 0)	{
 			btn0.style.background = "#929292";
-			btn0.style.background = "#f4f4f4";
-			btn0.style.background = "#f4f4f4";
+			btn1.style.background = "#f4f4f4";
+			btn2.style.background = "#f4f4f4";
 		}
 		if(imgNum = 1)	{
 			btn0.style.background = "#f4f4f4";
-			btn0.style.background = "#929292";
-			btn0.style.background = "#f4f4f4";
+			btn1.style.background = "#929292";
+			btn2.style.background = "#f4f4f4";
 		}
 		if(imgNum = 2)	{
 			btn0.style.background = "#f4f4f4";
-			btn0.style.background = "#f4f4f4";
-			btn0.style.background = "#929292";
+			btn1.style.background = "#f4f4f4";
+			btn2.style.background = "#929292";
 		}
 
 	}
