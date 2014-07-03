@@ -42,9 +42,9 @@ function changeBG(imgNum){
  //    var diff = parseInt((t2-t1)/(24*3600*1000));
 
 	var images = [], x = -1;
-	images[0] = "img/NYBG.jpg";
-	images[1] = "img/RoadTripBG.jpg";
-	images[2] = "img/AnniversaryBG.jpg";
+	images[0] = "img/AnniversaryBG.jpg";
+	images[1] = "img/NYBG.jpg";
+	images[2] = "img/RoadTripBG.jpg";
 
 	if(imgNum < 3)	{	
 		displayImage(images[imgNum]);
