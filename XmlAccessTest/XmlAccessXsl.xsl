@@ -55,29 +55,18 @@ body, p {
   background-size: 1000px auto;
 }
 
-.page-header  {
-  height: 90px;
-  width:500px;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  vertical-align: center;
-  background-size: 500px auto;
-}
-
 .main-header, .main-body, #bg2  {
   font-family: Tahoma;
 }
 
 .main-header  {
-  height: 95px;
+  font-size:20pt;
+  height: 25px;
   width:500px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   vertical-align: center;
-  background-size: 500px auto;
 }
 
 .main-body  {
@@ -93,20 +82,6 @@ input[type=button]  {
   font-family: Tahoma;
   background: #f4f4f4;
 }
-.button-container {
-  height: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  vertical-align: center;
-  font-family: Tahoma;
-}
-#bg2  {
-  margin: 0px 10px 0px 10px;
-  font-size: 20pt;
-  height: 235px;
-}
-
       </xsl:comment>
     </style>
 
