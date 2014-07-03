@@ -46,13 +46,13 @@ function changeBG(imgNum){
 	if(imgNum < 2)	{
 		document.getElementById("main-body").style.height="275px;";
 		document.getElementById("bg2").style.display="none";
-		document.getElementById("main-body").style.margin="margin: 0px 10px 50px 10px;";		
+		document.getElementById("main-body").style="margin: 0px 10px 50px 10px;";		
 		displayImage(images[imgNum]);
 	}
 	else	{
 		document.getElementById("container").style.backgroundImage = "none";
 		document.getElementById("main-body").style.height="100px";
-		document.getElementById("main-body").style.margin="margin: 0px 10px 0px 10px;";		
+		document.getElementById("main-body").style="margin: 0px 10px 0px 10px;";		
 		e=document.getElementById("bg2");
 		e.innerHtml="Happy" + DateDiff.inDays(d1, d2) + "Baby!!!!!";
 		document.getElementById("bg2").style.display="";
