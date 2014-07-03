@@ -34,22 +34,12 @@ function changeBG(imgNum){
     	}
 	}
 
-	function genDiff()	{
-		var dString = "February, 10, 2013";
-		var d1 = new Date(dString);
-		var d2 = new Date();
-    	var t2 = d2.getTime();
-    	var t1 = d1.getTime();
-    	var diff = parseInt((t2-t1)/(24*3600*1000));
-    	genDiff = diff;
-	}
 	var dString = "February, 10, 2013";
 	var d1 = new Date(dString);
 	var d2 = new Date();
     var t2 = d2.getTime();
     var t1 = d1.getTime();
     var diff = parseInt((t2-t1)/(24*3600*1000));
-
 
 	var images = [], x = -1;
 	images[0] = "img/NYBG.jpg";
@@ -67,4 +57,4 @@ function changeBG(imgNum){
 		// document.write("<br />Number of <b>days</b> since "+dString+": "+DateDiff.inDays(d1, d2));
 	}
 }
-window.onload=genDiff;
+window.onload=changeBG;
