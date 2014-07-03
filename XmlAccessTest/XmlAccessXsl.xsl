@@ -24,6 +24,23 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
     </div>
 
+    <!-- This is the Information Contained in the XML File -->
+    <div class="main-container">
+      <div class="main-header">List of Stored Terms</div>
+      <table border="1">
+        <tr bgcolor="#9acd32">
+          <th>Term</th>
+          <th>Definition</th>
+        </tr>
+        <xsl:for-each select="Root/TermDef">
+          <xsl:if test="not(&lt;xsl:value-of select="Term"/&gt; = "")"
+          <tr>
+            <td><xsl:value-of select="Term"/></td>
+            <td><xsl:value-of select="Definition"/></td>
+          </tr>
+        </xsl:for-each>
+      </table>
+    </div>
     <style type="text/css">
       <xsl:comment>
 html, body, div, span, h1, h2, h3, h4, h5, h6, p, ol, ul, li, blockquote, pre, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, section, summary, audio, video {
