@@ -51,6 +51,7 @@ function changeBG(imgNum){
 	else	{
 		document.getElementById("container").style.backgroundImage = "none";
 		document.getElementById("main-body").style.height="100px";
+		document.getElementById("main-body").style.margin-bottom="0px";		
 		e=document.getElementById("bg2");
 		e.innerHtml="Happy" + DateDiff.inDays(d1, d2) + "Baby!!!!!";
 		document.getElementById("bg2").style.display="";
