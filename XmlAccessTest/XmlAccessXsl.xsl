@@ -28,7 +28,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <div class="main-container">
       <div class="main-header">List of Stored Terms</div>
       <table border="1">
-        <tr bgcolor="#9acd32">
+        <tr bgcolor="#f4f4f4">
           <th>Term</th>
           <th>Definition</th>
         </tr>
@@ -67,7 +67,7 @@ body, p {
 }
 
 .main-container {
-  height: 500px;
+  height: 150px;
   width:1000px;
   margin-top: 50px;
   /*margin-bottom: 50px;*/
