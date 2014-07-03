@@ -61,8 +61,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       xmlhttp.send();
       xmlDoc=xmlhttp.responseXML;
 
-      <!-- searchTerm=document.getElementById("termInput").value; -->
-      searchTerm=<xsl:value-of select="termInput"/>
+      searchTerm=document.getElementById("termInput").value;
+      <!-- searchTerm=<xsl:value-of select="termInput"/> -->
       e=document.getElementById("term");
       f=document.getElementById("definition");
       var x = xmlDoc.getElementsByTagName("TermDef");
