@@ -79,7 +79,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       
       <!-- e.innerHTML = searchTerm; -->
 
-      <!-- var x = xmlDoc.getElementsByTagName("TermDef"); -->
+      var x = xmlDoc.getElementsByTagName("TermDef");
       <!-- for (i=0;i&lt;x.length;i++)  { -->
 
       for (i=0;i&lt;4;i++)  {
