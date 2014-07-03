@@ -6,15 +6,15 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template match="/">
   <html>
   <body>
-    <h2>Search for a Term</h2>
-
-    <form id="searchTerm">
-      <input type="text" name="query" id="termInput"/><br/>
-      <input type="button" onclick="searchTermDef();" value="Search"/>
-    </form>
 
     <div class="main-container">
-      <div>Hello World</div>      
+      <div class="main-header">Search for a Term</div>
+      <form id="searchTerm">
+        <input type="text" name="query" id="termInput"/><br/>
+        <input type="button" onclick="searchTermDef();" value="Search"/>
+      </form>
+      
+      <div>Here's the Term and Definition:</div>      
       <div id="term"></div>
       <div id="definition"></div>
     </div>
