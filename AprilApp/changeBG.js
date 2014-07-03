@@ -58,12 +58,12 @@ function changeBG(imgNum){
 			btn1.style.background = "#f4f4f4";
 			btn2.style.background = "#f4f4f4";
 		}
-		if(imgNum = 1)	{
+		else if(imgNum = 1)	{
 			btn0.style.background = "#f4f4f4";
 			btn1.style.background = "#929292";
 			btn2.style.background = "#f4f4f4";
 		}
-		if(imgNum = 2)	{
+		else if(imgNum = 2)	{
 			btn0.style.background = "#f4f4f4";
 			btn1.style.background = "#f4f4f4";
 			btn2.style.background = "#929292";
