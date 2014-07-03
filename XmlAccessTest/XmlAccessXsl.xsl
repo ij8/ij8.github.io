@@ -8,6 +8,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <body>
 
     <div class="main-container">
+
       <div class="main-header">Search for a Term</div>
       <span>
         <form id="searchTerm">
@@ -15,10 +16,12 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
           <input type="button" onclick="searchTermDef();" value="Search"/>
         </form>
       </span>
-      
-      <div>Here's the Term and Definition:</div>      
-      <div id="term"></div>
-      <div id="definition"></div>
+
+      <div class="main-body">
+        <div id="term"></div>
+        <div id="definition"></div>
+      </div>
+
     </div>
 
     <style type="text/css">
@@ -83,7 +86,12 @@ input[type=button]  {
   height:25px;
   font-family: Tahoma;
   background: #f4f4f4;
+  float:left;
 }
+input[type=text]  {
+  float:left;
+}
+
       </xsl:comment>
     </style>
 
