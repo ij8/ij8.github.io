@@ -21,7 +21,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       <div><xsl:value-of select="termInput"/></div><br/>
       <xsl:for-each select="Root/TermDef">
         <xsl:variable name="currentTerm"><xsl:value-of select="Term"/></xsl:variable>
-        <div><xsl:value-of select="$currentTerm"/></div>
+        <!-- <div><xsl:value-of select="$currentTerm"/></div> -->
         <xsl:if test="$currentTerm = $queryVal">
           <div id="term"><xsl:value-of select="Term"/></div>
           <div id="definition"><xsl:value-of select="Definition"/></div>
@@ -67,7 +67,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       f=document.getElementById("definition");
       var x = xmlDoc.getElementsByTagName("TermDef");
       for (i=0;i&lt;x.length;i++)  {
-        if(x[i].getElementsByTagName("Term")[0].childNodes[0].nodeValue.toLowerCase() == searchTerm.toLowerCase())  {
+        if(x[i].getElementsByTagName("Term")[0].childNodes[0].nodeValue.toLowerCase() == 'banruptcy')  {
           e.innerHTML = x[i].getElementsByTagName("Term")[0].childNodes[0].nodeValue;
           f.innerHTML = x[i].getElementsByTagName("Definition")[0].childNodes[0].nodeValue;
           break;
