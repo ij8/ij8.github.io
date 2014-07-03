@@ -47,7 +47,8 @@ function changeBG(imgNum){
 		displayImage(images[imgNum]);
 	}
 	else	{
-		document.getElementById("main-body").style.height="100px";
+		document.getElementById("container").style.backgroundImage = "";
+		document.getElementById("main-body").style.height="100px;";
 		e=document.getElementById("bg2");
 		e.innerHtml="Happy" + DateDiff.inDays(d1, d2) + "Baby!!!!!";
 		document.getElementById("bg2").style.display="";

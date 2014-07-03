@@ -13,7 +13,7 @@ function showReason() {
 	
 	e=document.getElementById("reason");
 	var x = xmlDoc.getElementsByTagName("REASON");
-  	var rand = Math.floor((Math.random() * x.length));
+  var rand = Math.floor((Math.random() * x.length));
 	e.innerHTML = x[rand].childNodes[0].nodeValue;
 
 
