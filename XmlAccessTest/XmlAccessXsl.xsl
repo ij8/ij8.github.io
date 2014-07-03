@@ -80,7 +80,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       var x = xmlDoc.getElementsByTagName("TermDef");
       <!-- for (i=0;i&lt;x.length;i++)  { -->
       for (i=0;i&lt;4;i++)  {
-        e.innerHTML=x[i].getElementsByTagName("Term")[0].childNodes[0].nodeValue;
+        e.innerHTML=x[1].getElementsByTagName("Term")[0].childNodes[0].nodeValue;
         <!-- if((&lt;xsl:value-of select="Term"/&gt;).toLowerCase() == searchTerm.toLowerCase())  {
           e.innerHTML = &lt;xsl:value-of select="Term"/&gt;
           f.innerHTML = &lt;xsl:value-of select="Definition"/&gt;
