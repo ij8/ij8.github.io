@@ -34,27 +34,28 @@ function changeBG(imgNum){
     	}
 	}
 
-	var dString = "February, 10, 2013";
-	var d1 = new Date(dString);
-	var d2 = new Date();
-    var t2 = d2.getTime();
-    var t1 = d1.getTime();
-    var diff = parseInt((t2-t1)/(24*3600*1000));
+	// var dString = "February, 10, 2013";
+	// var d1 = new Date(dString);
+	// var d2 = new Date();
+ //    var t2 = d2.getTime();
+ //    var t1 = d1.getTime();
+ //    var diff = parseInt((t2-t1)/(24*3600*1000));
 
 	var images = [], x = -1;
 	images[0] = "img/NYBG.jpg";
 	images[1] = "img/RoadTripBG.jpg";
+	images[2] = "img/AnniversaryBG.jpg";
 
-	if(imgNum < 2)	{	
+	if(imgNum < 3)	{	
 		displayImage(images[imgNum]);
 		e=document.getElementById("bg2");
 		e.innerHtml="";
 	}
-	else	{
-		document.getElementById("container").style.backgroundImage = "none";	
-		e=document.getElementById("bg2");
-		e.innerHtml=diff;
-		// document.write("<br />Number of <b>days</b> since "+dString+": "+DateDiff.inDays(d1, d2));
-	}
+	// else	{
+	// 	document.getElementById("container").style.backgroundImage = "none";	
+	// 	e=document.getElementById("bg2");
+	// 	e.innerHtml=diff;
+	// 	document.write("<br />Number of <b>days</b> since "+dString+": "+DateDiff.inDays(d1, d2));
+	// }
 }
 window.onload=changeBG;
