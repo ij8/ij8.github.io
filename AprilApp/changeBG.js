@@ -43,18 +43,14 @@ function changeBG(imgNum){
 	images[0] = "img/NYBG.jpg";
 	images[1] = "img/RoadTripBG.jpg";
 
-	if(imgNum < 2)	{
-		document.getElementById("main-body").style.height="275px;";
-		document.getElementById("bg2").style.display="none";
-		document.getElementById("main-body").style="margin: 0px 10px 50px 10px;";		
+	if(imgNum < 2)	{	
 		displayImage(images[imgNum]);
+		e=document.getElementById("bg2");
+		e.innerHtml="";
 	}
 	else	{
-		document.getElementById("container").style.backgroundImage = "none";
-		document.getElementById("main-body").style.height="100px";
-		document.getElementById("main-body").style="margin: 0px 10px 0px 10px;";		
+		document.getElementById("container").style.backgroundImage = "none";	
 		e=document.getElementById("bg2");
 		e.innerHtml="Happy" + DateDiff.inDays(d1, d2) + "Baby!!!!!";
-		document.getElementById("bg2").style.display="";
 	}
 }
