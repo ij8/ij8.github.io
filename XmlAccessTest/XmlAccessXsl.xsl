@@ -10,7 +10,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
     <form id="searchTerm">
       <input type="text" name="query" id="termInput"/><br/>
-      <button type="button" onclick="searchTermDef();">Search</button>
+      <input type="submit" onclick="searchTermDef();">Search</button>
     </form>
 
     <div class="main-container">
@@ -21,42 +21,98 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
     <style type="text/css">
       <xsl:comment>
-        html, body, div, span, h1, h2, h3, h4, h5, h6, p, ol, ul, li, blockquote, pre, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, section, summary, audio, video {
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, ol, ul, li, blockquote, pre, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, section, summary, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
   vertical-align: basseline;
 }
+
 body, p {
   line-height: 1.2;
   font-family: Georgia, serif;
   font-size: 10pt;
   /*This is blue*/
   /*background-color:#B3B6FF;*/
-  background-color: #FFFFFF;
+  /*This is Beige*/
+  background-color:#FCF7BD;
+  /*This is white*/ 
+  /*background-color: #FFFFFF;*/
 }
+
 .main-container {
-  width:100%;
-  margin-top: 200px;
+  height: 500px;
+  width:1000px;
+  margin-top: 50px;
+  /*margin-bottom: 50px;*/
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   vertical-align: center;
   font-family: Tahoma;
+  /*background-color:#B3B6FF;*/
+  background-image: url("img/NYBG.jpg");
+  background-size: 1000px auto;
 }
+
+.page-header  {
+  height: 90px;
+  width:500px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  vertical-align: center;
+  background-image: url("img/ILoveAprilBecause.jpg");
+  background-size: 500px auto;
+}
+
+.main-header, .main-body, #bg2  {
+  font-family: Tahoma;
+}
+
 .main-header  {
-  font-size: large;
+  /*Original Styling*/
+  /*
+  padding-top: 50px;
+  font-size: 15pt;
+  */
+  height: 95px;
+  width:500px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  vertical-align: center;
+  background-image: url("img/ILoveAprilBecause.jpg");
+  background-size: 500px auto;
 }
+
 .main-body  {
-  font-size: small;
+  margin: 0px 10px 0px 10px;
+  font-size: 20pt;
+  height: 100px;
 }
-input[type=submit] {
+input[type=button]  {
   margin: 0px 0px 10px 10px
   border-radius: 5px;
   border: 0;
   height:25px;
   font-family: Tahoma;
   background: #f4f4f4;
-  /**When button is selected, want color to be #929292*/
+}
+.button-container {
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  vertical-align: center;
+  font-family: Tahoma;
+}
+#bg2  {
+  margin: 0px 10px 0px 10px;
+  font-size: 20pt;
+  height: 235px;
 }
 
       </xsl:comment>
