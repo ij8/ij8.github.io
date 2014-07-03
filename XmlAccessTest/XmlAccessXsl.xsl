@@ -9,12 +9,12 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
     <div class="main-container">
       <div class="main-header">Search for a Term</div>
-      <nobr>
+      <span>
         <form id="searchTerm">
           <input type="text" name="query" id="termInput"/><br/>
           <input type="button" onclick="searchTermDef();" value="Search"/>
         </form>
-      </nobr>
+      </span>
       
       <div>Here's the Term and Definition:</div>      
       <div id="term"></div>
