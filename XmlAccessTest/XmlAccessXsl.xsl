@@ -9,7 +9,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <h2>Search for a Term</h2>
 
     <form id="searchTerm">
-      <input type="text" name="query" id="termInput">Bankruptcy</input><br/>
+      <input type="text" name="query" id="termInput" value="Bankruptcy"/><br/>
       <!-- <button type="submit" onclick="searchTermDef();">Search</button> -->
       <button type="submit" onclick="searchTermDef();">Search</button>
     </form>
