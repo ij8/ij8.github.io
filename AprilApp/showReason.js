@@ -18,4 +18,3 @@ function showReason() {
 
 
 }
-window.onload=showReason;
