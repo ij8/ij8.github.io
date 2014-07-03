@@ -6,7 +6,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template match="/">
   <html>
   <body>
-    <h2>Add Term and Definition</h2>
+    <h2>Search for a Term</h2>
 
     <!-- <form id="addTerm">
       Term: <input type="text" name="termInput" value=""/><br/>
@@ -24,7 +24,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     
     <div class="main-container">
       <div>Hello World</div>
-      <div><xsl:value-of select="$queryVal"/></div><br/>
+      <div><xsl:value-of select="termInput"/></div><br/>
       <xsl:for-each select="Root/TermDef">
         <xsl:variable name="currentTerm"><xsl:value-of select="Term"/></xsl:variable>
         <div><xsl:value-of select="$currentTerm"/></div>
