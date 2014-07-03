@@ -11,7 +11,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <form id="searchTerm">
       <input type="text" name="query" id="termInput"/><br/>
       <!-- <button type="submit" onclick="searchTermDef();">Search</button> -->
-      <button onclick="searchTermDef2();" value="Search"/>
+      <button onclick="searchTermDef2();">Search</button>
     </form>
 
     <xsl:variable name="queryVal" select="termInput"/>
