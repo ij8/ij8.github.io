@@ -114,7 +114,7 @@ input[type=button]  {
   height:25px;
   font-color: white;
   font-family: Tahoma;
-  background: #3964b4;
+  background: #f4f4f4;
   float:left;
 }
 input[type=text]  {
