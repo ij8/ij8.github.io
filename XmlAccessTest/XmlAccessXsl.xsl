@@ -67,13 +67,30 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       f=document.getElementById("definition");
       var x = xmlDoc.getElementsByTagName("TermDef");
       for (i=0;i&lt;x.length;i++)  {
-        if(x[i].getElementsByTagName("Term")[0].childNodes[0].nodeValue.toLowerCase() == 'banruptcy')  {
+        if(x[i].getElementsByTagName("Term")[0].childNodes[0].nodeValue.toLowerCase() == 'searchTerm.toLowerCase()')  {
           e.innerHTML = x[i].getElementsByTagName("Term")[0].childNodes[0].nodeValue;
           f.innerHTML = x[i].getElementsByTagName("Definition")[0].childNodes[0].nodeValue;
           break;
         }
       }
     }
+
+    function searchTermDef2()  {
+      searchTerm=document.getElementById("termInput").value;
+      <!-- searchTerm=<xsl:value-of select="termInput"/> -->
+      e=document.getElementById("term");
+      f=document.getElementById("definition");
+      e.innerHTML = searchTerm;
+      <!-- var x = xmlDoc.getElementsByTagName("TermDef");
+      for (i=0;i&lt;x.length;i++)  {
+        if(x[i].getElementsByTagName("Term")[0].childNodes[0].nodeValue.toLowerCase() == 'searchTerm.toLowerCase()')  {
+          e.innerHTML = x[i].getElementsByTagName("Term")[0].childNodes[0].nodeValue;
+          f.innerHTML = x[i].getElementsByTagName("Definition")[0].childNodes[0].nodeValue;
+          break;
+        }
+      } -->
+    }
+
 
     function addDictionaryResult()  {
       xmlDoc = loadXMLDoc("GuruDictionary.xml");
