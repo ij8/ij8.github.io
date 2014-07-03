@@ -38,9 +38,11 @@ function changeBG(imgNum){
 
 	var d1 = new Date(dString);
 	var d2 = new Date();
-			e=document.getElementById("bg2");
-		e.innerHtml=DateDiff.inDays(d1, d2);
-	
+    var t2 = d2.getTime();
+    var t1 = d1.getTime();
+    var diff = parseInt((t2-t1)/(24*3600*1000));
+
+
 	var images = [], x = -1;
 	images[0] = "img/NYBG.jpg";
 	images[1] = "img/RoadTripBG.jpg";
@@ -53,8 +55,7 @@ function changeBG(imgNum){
 	else	{
 		document.getElementById("container").style.backgroundImage = "none";	
 		e=document.getElementById("bg2");
-		e.innerHtml="<br />Number of <b>days</b> since "+dString+": "+DateDiff.inDays(d1, d2);
+		e.innerHtml=diff;
 		// document.write("<br />Number of <b>days</b> since "+dString+": "+DateDiff.inDays(d1, d2));
 	}
 }
-window.onload=DateDiff.inDays(d1, d2);
