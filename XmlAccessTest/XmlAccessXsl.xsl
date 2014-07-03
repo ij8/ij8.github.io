@@ -36,7 +36,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
           <xsl:variable name="currentTerm"><xsl:value-of select="Term"/></xsl:variable>
           <xsl:variable name="null"/>
           <xsl:if test="not($currentTerm) = $null">
-            <tr>
+            <tr style="height:25px;">
               <td><xsl:value-of select="Term"/></td>
               <td><xsl:value-of select="Definition"/></td>
             </tr>
