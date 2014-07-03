@@ -33,11 +33,12 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
           <th>Definition</th>
         </tr>
         <xsl:for-each select="Root/TermDef">
-          <xsl:if test="not(&lt;xsl:value-of select="Term"/&gt; = "")"
-          <tr>
-            <td><xsl:value-of select="Term"/></td>
-            <td><xsl:value-of select="Definition"/></td>
-          </tr>
+          <xsl:if test="not(&lt;xsl:value-of select="Term"/&gt; = "")">
+            <tr>
+              <td><xsl:value-of select="Term"/></td>
+              <td><xsl:value-of select="Definition"/></td>
+            </tr>
+          </xsl:if>
         </xsl:for-each>
       </table>
     </div>
