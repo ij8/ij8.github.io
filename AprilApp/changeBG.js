@@ -38,6 +38,8 @@ function changeBG(imgNum){
 
 	var d1 = new Date(dString);
 	var d2 = new Date();
+			e=document.getElementById("bg2");
+		e.innerHtml=DateDiff.inDays(d1, d2);
 	
 	var images = [], x = -1;
 	images[0] = "img/NYBG.jpg";
@@ -52,5 +54,6 @@ function changeBG(imgNum){
 		document.getElementById("container").style.backgroundImage = "none";	
 		e=document.getElementById("bg2");
 		e.innerHtml=DateDiff.inDays(d1, d2);
+		document.write("<br />Number of <b>days</b> since "+dString+": "+DateDiff.inDays(d1, d2));
 	}
 }
