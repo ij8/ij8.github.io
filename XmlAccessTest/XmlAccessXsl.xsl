@@ -113,7 +113,7 @@ input[type=button]  {
   border: 0;
   height:25px;
   font-family: Tahoma;
-  background: #f4f4f4;
+  background: rgd(56,100,180);
   float:left;
 }
 input[type=text]  {
