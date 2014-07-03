@@ -11,7 +11,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <form id="searchTerm">
       <input type="text" name="query" id="termInput"/><br/>
       <!-- <button type="submit" onclick="searchTermDef();">Search</button> -->
-      <button onclick="searchTermDef2();">Search</button>
+      <input type="button" onclick="searchTermDef2();">Search</input>
     </form>
 
     <xsl:variable name="queryVal" select="termInput"/>
@@ -95,8 +95,6 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         }
       } -->
     }
-    window.onload=searchTermDef2;
-
 
     function addDictionaryResult()  {
       xmlDoc = loadXMLDoc("GuruDictionary.xml");
