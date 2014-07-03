@@ -76,17 +76,19 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       searchTerm=document.getElementById("termInput").value;
       e=document.getElementById("term");
       f=document.getElementById("definition");
-      <!-- e.innerHTML = searchTerm; -->
-      var x = xmlDoc.getElementsByTagName("TermDef");
+      e.innerHTML = searchTerm;
+      
+      <!-- var x = xmlDoc.getElementsByTagName("TermDef"); -->
       <!-- for (i=0;i&lt;x.length;i++)  { -->
-      for (i=0;i&lt;4;i++)  {
-        e.innerHTML=x[1].getElementsByTagName("Term")[0].childNodes[0].nodeValue;
+
+      <!-- for (i=0;i&lt;4;i++)  {
+        e.innerHTML=x[1].getElementsByTagName("Term")[0].childNodes[0].nodeValue; -->
         <!-- if((&lt;xsl:value-of select="Term"/&gt;).toLowerCase() == searchTerm.toLowerCase())  {
           e.innerHTML = &lt;xsl:value-of select="Term"/&gt;
           f.innerHTML = &lt;xsl:value-of select="Definition"/&gt;
           break;
         } -->
-      }
+      <!-- } -->
     }
 
     function addDictionaryResult()  {
