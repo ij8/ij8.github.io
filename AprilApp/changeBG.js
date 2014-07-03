@@ -44,6 +44,8 @@ function changeBG(imgNum){
 	images[1] = "img/RoadTripBG.jpg";
 
 	if(imgNum < 2)	{
+		document.getElementById("main-body").style.height="275px;";
+		document.getElementById("bg2").style.display="none";
 		displayImage(images[imgNum]);
 	}
 	else	{
