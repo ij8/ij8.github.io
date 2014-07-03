@@ -53,7 +53,7 @@ function changeBG(imgNum){
 	else	{
 		document.getElementById("container").style.backgroundImage = "none";	
 		e=document.getElementById("bg2");
-		e.innerHtml="<br />Number of <b>days</b> since "+dString+": "+DateDiff.inDays(d1, d2);
-		// document.write("<br />Number of <b>days</b> since "+dString+": "+DateDiff.inDays(d1, d2));
+		// e.innerHtml="<br />Number of <b>days</b> since "+dString+": "+DateDiff.inDays(d1, d2);
+		document.write("<br />Number of <b>days</b> since "+dString+": "+DateDiff.inDays(d1, d2));
 	}
 }
