@@ -16,7 +16,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <div class="main-container">
       <div>Hello World</div>      
       <div id="term"></div>
-      <div id="definition"><</div>
+      <div id="definition"></div>
     </div>
 
     <style type="text/css">
