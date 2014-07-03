@@ -8,8 +8,7 @@
 	</title>
 	<link rel="stylesheet" type="text/css" href="main.css" />
 	<script type="text/javascript" src="showReason.js"></script>
-	<script type="text/javascript" src="bgCycle.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="changeBG.js"></script>
 </head>
 <body>
 
@@ -19,7 +18,13 @@
 			<!-- Have a reason displayed here -->
 			<div id="reason"></div>		
 		</div>
-		<input type="button" onclick="showReason()" value="Get Another Reason input"/>
+		<div id="bg2" style="display:none;"></div>
+		<input type="button" onclick="showReason()" value="Get Another Reason"/>
+	</div>
+	<div style="margin:auto;">
+		<input type="button" onclick="changeBG(0)" value="NY"/>
+		<input type="button" onclick="changeBG(1)" value="Road Trip"/>
+		<input type="button" onclick="changeBG(2)" value="Anniversary"/>
 	</div>
 
 </body>

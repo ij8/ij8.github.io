@@ -45,7 +45,7 @@ body, p {
 	background-size: 500px auto;
 }
 
-.main-header, .main-body	{
+.main-header, .main-body, #bg2	{
 	font-family: Tahoma;
 }
 
@@ -77,4 +77,9 @@ input[type=button]	{
 	height:25px;
 	font-family: Tahoma;
 	background: #f4f4f4;
+}
+#bg2	{
+	margin: 0px 10px 0px 10px;
+	font-size: 20pt;
+	height: 175px;
 }
