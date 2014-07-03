@@ -56,16 +56,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     }
 
     function searchTermDef()  {
-      if(window.XMLHttpRequest) {
-        xmlhttp=new XMLHttpRequest();
-      }
-      else{
-        xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-      }
-      xmlhttp.open("GET","GuruDictionary.xml",false);
-      xmlhttp.send();
-      xmlDoc=xmlhttp.responseXML;
-
+      xmlDoc = loadXMLDoc("GuruDictionary.xml");
       searchTerm=document.getElementById("termInput").value;
       <!-- searchTerm=<xsl:value-of select="termInput"/> -->
       e=document.getElementById("term");
@@ -81,19 +72,19 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     }
 
     function searchTermDef2()  {
+      xmlDoc = loadXMLDoc("GuruDictionary.xml");
       searchTerm=document.getElementById("termInput").value;
-      <!-- searchTerm=<xsl:value-of select="termInput"/> -->
       e=document.getElementById("term");
       f=document.getElementById("definition");
-      e.innerHTML = searchTerm;
-      <!-- var x = xmlDoc.getElementsByTagName("TermDef");
+      <!-- e.innerHTML = searchTerm; -->
+      var x = xmlDoc.getElementsByTagName("TermDef");
       for (i=0;i&lt;x.length;i++)  {
-        if(x[i].getElementsByTagName("Term")[0].childNodes[0].nodeValue.toLowerCase() == 'searchTerm.toLowerCase()')  {
-          e.innerHTML = x[i].getElementsByTagName("Term")[0].childNodes[0].nodeValue;
-          f.innerHTML = x[i].getElementsByTagName("Definition")[0].childNodes[0].nodeValue;
+        if((&lt;xsl:value-of select="Term"/&gt;).toLowerCase() == searchTerm.toLowerCase())  {
+          e.innerHTML = &lt;xsl:value-of select="Term"/&gt;
+          f.innerHTML = &lt;xsl:value-of select="Definition"/&gt;
           break;
         }
-      } -->
+      }
     }
 
     function addDictionaryResult()  {
