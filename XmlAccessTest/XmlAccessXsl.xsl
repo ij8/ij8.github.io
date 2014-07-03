@@ -10,12 +10,12 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <div class="main-container">
 
       <div class="main-header">Search for a Term</div>
-      <span>
+      <div class="search-row">
         <form id="searchTerm">
           <input type="text" name="query" id="termInput"/><br/>
           <input type="button" onclick="searchTermDef();" value="Search"/>
         </form>
-      </span>
+      </div>
 
       <div class="main-body">
         <div id="term"></div>
@@ -78,6 +78,9 @@ body, p {
   margin: 0px 10px 0px 10px;
   font-size: 20pt;
   height: 100px;
+}
+.search-row {
+  height:30px;
 }
 input[type=button]  {
   margin: 0px 0px 10px 10px
