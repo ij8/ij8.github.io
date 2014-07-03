@@ -58,4 +58,3 @@ function changeBG(imgNum){
 	// 	document.write("<br />Number of <b>days</b> since "+dString+": "+DateDiff.inDays(d1, d2));
 	// }
 }
-window.onload=changeBG;
