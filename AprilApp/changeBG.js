@@ -51,6 +51,6 @@ function changeBG(imgNum){
 	else	{
 		document.getElementById("container").style.backgroundImage = "none";	
 		e=document.getElementById("bg2");
-		e.innerHtml="Happy" + DateDiff.inDays(d1, d2) + "Baby!!!!!";
+		e.innerHtml=DateDiff.inDays(d1, d2);
 	}
 }
