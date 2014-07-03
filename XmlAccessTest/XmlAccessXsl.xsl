@@ -61,7 +61,7 @@ body, p {
 
 .main-header  {
   font-size:20pt;
-  height: 25px;
+  height: 40px;
   width:500px;
   margin-left: auto;
   margin-right: auto;
