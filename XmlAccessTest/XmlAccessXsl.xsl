@@ -52,7 +52,6 @@ body, p {
   vertical-align: center;
   font-family: Tahoma;
   /*background-color:#B3B6FF;*/
-  background-image: url("img/NYBG.jpg");
   background-size: 1000px auto;
 }
 
@@ -64,7 +63,6 @@ body, p {
   margin-right: auto;
   text-align: center;
   vertical-align: center;
-  background-image: url("img/ILoveAprilBecause.jpg");
   background-size: 500px auto;
 }
 
@@ -73,18 +71,12 @@ body, p {
 }
 
 .main-header  {
-  /*Original Styling*/
-  /*
-  padding-top: 50px;
-  font-size: 15pt;
-  */
   height: 95px;
   width:500px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   vertical-align: center;
-  background-image: url("img/ILoveAprilBecause.jpg");
   background-size: 500px auto;
 }
 
