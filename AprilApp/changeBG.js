@@ -46,6 +46,12 @@ function changeBG(imgNum){
 	images[1] = "img/NYBG.jpg";
 	images[2] = "img/RoadTripBG.jpg";
 
+	if(imgNum < 3)	{	
+		displayImage(images[imgNum]);
+		e=document.getElementById("bg2");
+		e.innerHtml="";
+	}
+	
 	// if(imgNum < 3)	{	
 	// 	displayImage(images[imgNum]);
 	// 	e=document.getElementById("bg2");
