@@ -22,7 +22,7 @@ body, p {
 	height: 500px;
 	width:1000px;
 	margin-top: 50px;
-	margin-bottom: 50px;
+	/*margin-bottom: 50px;*/
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -77,6 +77,11 @@ input[type=button]	{
 	height:25px;
 	font-family: Tahoma;
 	background: #f4f4f4;
+}
+.button-container	{
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
 }
 #bg2	{
 	margin: 0px 10px 0px 10px;
