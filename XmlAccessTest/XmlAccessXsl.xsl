@@ -76,7 +76,7 @@ body, p {
 
 .main-body  {
   margin: 0px 10px 0px 10px;
-  font-size: 20pt;
+  font-size: 10pt;
   height: 100px;
 }
 .search-row {
