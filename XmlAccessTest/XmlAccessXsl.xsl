@@ -12,7 +12,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       <div class="main-header">Search for a Term</div>
       <div class="search-row">
         <form id="searchTerm">
-          <input type="text" name="query" id="termInput"/><br/>
+          <input type="text" name="query" id="termInput"/>
           <input type="button" onclick="searchTermDef();" value="Search"/>
         </form>
       </div>
