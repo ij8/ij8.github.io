@@ -83,6 +83,9 @@ input[type=button]	{
 	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
+	text-align: center;
+	vertical-align: center;
+	font-family: Tahoma;
 }
 #bg2	{
 	margin: 0px 10px 0px 10px;
