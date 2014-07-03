@@ -116,6 +116,15 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       y=xmlDoc.getElementsByTagName("TermDef")[0];
       xmlDoc.documentElement.removeChild(y);
     }
+
+    var textareaval=$('#query').val();
+
+    function outputTranslated() {
+      $('#searchTerm').submit(function() {
+        alert(textareaval);
+      });
+    }
+
   </xsl:comment>
 </script>
   </body>
