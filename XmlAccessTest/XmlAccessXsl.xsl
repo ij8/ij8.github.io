@@ -28,7 +28,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <div class="main-container">
       <div class="main-header">List of Stored Terms</div>
       <table border="1">
-        <tr bgcolor="rgb(56,100,180)">
+        <tr bgcolor="#3964b4" style="font-color: white;">
           <th>Term</th>
           <th>Definition</th>
         </tr>
@@ -112,8 +112,9 @@ input[type=button]  {
   border-radius: 5px;
   border: 0;
   height:25px;
+  font-color: white;
   font-family: Tahoma;
-  background: rgb(56,100,180);
+  background: #3964b4;
   float:left;
 }
 input[type=text]  {
