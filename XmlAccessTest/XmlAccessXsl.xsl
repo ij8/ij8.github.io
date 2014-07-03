@@ -8,14 +8,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <body>
     <h2>Search for a Term</h2>
 
-    <!-- <form id="addTerm">
-      Term: <input type="text" name="termInput" value=""/><br/>
-      Definition: <input type="text" name="defInput" value=""/><br/>
-      <button type="submit" onclick="addDictionaryResult();">Add</button>
-    </form> -->
-
     <form id="searchTerm">
-      <input type="text" name="query" id="termInput"/><xsl:value-of select="PARAM[@name=query]/@value"/><br/>
+      <input type="text" name="query" id="termInput"/><br/>
       <!-- <button type="submit" onclick="searchTermDef();">Search</button> -->
       <button type="submit" onclick="searchTermDef();">Search</button>
     </form>
@@ -35,20 +29,6 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       </xsl:for-each>
     </div>
 
-    <!-- This is the Information Contained in the XML File -->
-    <!-- <h2>Terms</h2>
-    <table border="1">
-      <tr bgcolor="#9acd32">
-        <th>Term</th>
-        <th>Definition</th>
-      </tr>
-      <xsl:for-each select="Root/TermDef">
-        <tr>
-          <td><xsl:value-of select="Term"/></td>
-          <td><xsl:value-of select="Definition"/></td>
-        </tr>
-      </xsl:for-each>
-    </table> -->
     <script type="text/javascript">
   <xsl:comment>
     function loadXMLDoc(filename) {
@@ -115,14 +95,6 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       
       y=xmlDoc.getElementsByTagName("TermDef")[0];
       xmlDoc.documentElement.removeChild(y);
-    }
-
-    var textareaval=$('#query').val();
-
-    function outputTranslated() {
-      $('#searchTerm').submit(function() {
-        alert(textareaval);
-      });
     }
 
   </xsl:comment>
