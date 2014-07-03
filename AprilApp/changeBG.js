@@ -50,6 +50,25 @@ function changeBG(imgNum){
 		displayImage(images[imgNum]);
 		e=document.getElementById("bg2");
 		e.innerHtml="";
+		btn0=document.getElementById("btn0");
+		btn1=document.getElementById("btn1");
+		btn2=document.getElementById("btn2");
+		if(imgNum = 0)	{
+			btn0.style.background = "#929292";
+			btn0.style.background = "#f4f4f4";
+			btn0.style.background = "#f4f4f4";
+		}
+		if(imgNum = 1)	{
+			btn0.style.background = "#f4f4f4";
+			btn0.style.background = "#929292";
+			btn0.style.background = "#f4f4f4";
+		}
+		if(imgNum = 2)	{
+			btn0.style.background = "#f4f4f4";
+			btn0.style.background = "#f4f4f4";
+			btn0.style.background = "#929292";
+		}
+
 	}
 	// else	{
 	// 	document.getElementById("container").style.backgroundImage = "none";	
