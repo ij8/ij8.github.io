@@ -19,6 +19,17 @@
 		});
 	});
 	</script>
+	<script>
+	$( "#success" ).load( "/sourcepage.html", function( response, status, xhr ) {
+		if ( status == "error" ) {
+			var msg = "Sorry but there was an error: ";
+			$( "#error" ).html( msg + xhr.status + " " + xhr.statusText );
+		}
+		else	{
+			return #sourceData;
+		}
+	});
+	</script>
 </head>
 <body>
 
@@ -30,18 +41,6 @@
 		<div id="success"></div>
 		<b>Error Response:</b>
 		<div id="error"></div>
-
-		<script>
-		$( "#success" ).load( "/sourcepage.html", function( response, status, xhr ) {
-			if ( status == "error" ) {
-				var msg = "Sorry but there was an error: ";
-				$( "#error" ).html( msg + xhr.status + " " + xhr.statusText );
-			}
-			else	{
-				return #sourceData;
-			}
-		});
-		</script>
 		<p>
 			Click me away!
 		</p>
