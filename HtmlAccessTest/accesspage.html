@@ -10,7 +10,7 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<!--<script type="text/javascript" src="accessRemoteContent.js"></script>-->
 	<script>
-	$("#retrievedData").load("sourcepage.html #sourceData");
+	$("#retrievedData").load("/HtmlAccessTest/sourcepage.html #sourceData");
 	</script>
 	<script>
 	$(document).ready(function(){
@@ -19,15 +19,7 @@
 		});
 	});
 	</script>
-	<script>
-	$( "#success" ).load( "/sourcepag.html", function( response, status, xhr ) {
-		$( "#error" ).html(status);
-		// if ( status == "error" ) {
-		// 	var msg = "Sorry but there was an error: ";
-		// 	$( "#error" ).html( msg + xhr.status + " " + xhr.statusText );
-		// }
-	});
-	</script>
+
 </head>
 <body>
 
@@ -35,10 +27,6 @@
 		<div class="main-header">Access Html</div>
 		<div class="main-header">This is a test to retrieve html content using jQuery/Javascript</div>
 		<div id="retrievedData"></div>	
-		<b>Successful Response (should be blank):</b>
-		<div id="success"></div>
-		<b>Error Response:</b>
-		<div id="error"></div>
 		<p>
 			Click me away!
 		</p>
