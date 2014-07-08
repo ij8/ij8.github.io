@@ -29,21 +29,9 @@ body, p {
 	vertical-align: center;
 	font-family: Tahoma;
 	/*background-color:#B3B6FF;*/
-	background-image: url("img/AnniversaryBG.jpg");
 	background-size: 1000px auto;
 }
 
-.page-header	{
-	height: 90px;
-	width:500px;
-	margin-top: 50px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	vertical-align: center;
-	background-image: url("img/ILoveAprilBecause.jpg");
-	background-size: 500px auto;
-}
 
 .main-header, .main-body, #bg2	{
 	font-family: Tahoma;
@@ -61,33 +49,10 @@ body, p {
 	margin-right: auto;
 	text-align: center;
 	vertical-align: center;
-	background-image: url("img/ILoveAprilBecause.jpg");
-	background-size: 500px auto;
 }
 
 .main-body	{
 	margin: 0px 10px 0px 10px;
 	font-size: 20pt;
 	height: 100px;
-}
-input[type=button]	{
-	margin: 0px 0px 10px 10px
-	border-radius: 5px;
-	border: 0;
-	height:25px;
-	font-family: Tahoma;
-	background: #f4f4f4;
-}
-.button-container	{
-	height: 50px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	vertical-align: center;
-	font-family: Tahoma;
-}
-#bg2	{
-	margin: 0px 10px 0px 10px;
-	font-size: 20pt;
-	height: 235px;
 }
