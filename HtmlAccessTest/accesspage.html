@@ -9,8 +9,16 @@
 	<link rel="stylesheet" type="text/css" href="main.css" />
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<!--<script type="text/javascript" src="accessRemoteContent.js"></script>-->
-	<script>
+	<!--<script>
 		$(#retrievedData).load('/sourcepage.html div.sourceData');
+	</script>-->
+	<script>
+$(document).ready(function(){
+  $("p").click(function(){
+    $(this).hide();
+  });
+});
+</script>
 	</script>
 </head>
 <body>
@@ -18,7 +26,10 @@
 	<div class="main-container" id="container">
 		<div class="main-header">Access Html</div>
 		<div class="main-header">This is a test to retrieve html content using jQuery/Javascript</div>
-		<div id="retrievedData"></div>		
+		<div id="retrievedData"></div>	
+		<p>
+			Click me away!
+		</p>
 	</div>
 
 </body>
