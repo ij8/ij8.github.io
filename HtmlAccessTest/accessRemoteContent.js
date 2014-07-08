@@ -1,3 +1,1 @@
-function accessRemoteContent(){
-	$(#retrievedData).load('/sourcepage.html div.sourceData')
-}
+$(#retrievedData).load('/sourcepage.html div.sourceData')
