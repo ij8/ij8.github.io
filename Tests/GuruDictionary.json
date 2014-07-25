@@ -22,7 +22,7 @@ readJson(
 			"term": "Public Records",
 			"definition": "Public records are documents or pieces of information that are not considered confidential. The following are considered public records: &lt;br&gt; A judgment is a legal document stating the reasons for a judicial decision by the court against a debtor, usually indicating that the debtor owes further money. &lt;br&gt; A lien is a legal claim or form of security interest granted over an item of property to secure the payment of a debt.
 A lien is a legal claim or form of security interest granted over an item of property to secure the payment of a debt.
-A judgment is a legal document stating the reasons for a judicial decision by the court against a debtor, usually indicating that the debtor owes further money." 
+A judgment is a legal document stating the reasons for a judicial decision by the court against a debtor&#44; usually indicating that the debtor owes further money." 
 		},
 		{
 			"term": "Reposessions",
