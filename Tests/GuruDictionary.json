@@ -12,8 +12,7 @@ readJson(
 		},
 		{
 			"term": "Foreclosure",
-			"definition": "AKA&#58; Breach, Court Sale, Deed Substitution of Trustee, Lis Pendens, Notice of Pendency, Sheriff&#39;s Sale, Trustee Sale.
-A foreclosure is a specific legal process in which a lender attempts to recover the balance of a loan from a client who has stopped making payments by forcing the sale of the mortgaged property." 
+			"definition": "A foreclosure is a specific legal process in which a lender attempts to recover the balance of a loan from a client who has stopped making payments by forcing the sale of the mortgaged property." 
 		},
 		{
 			"term": "Modifications",
@@ -35,7 +34,7 @@ A judgment is a legal document stating the reasons for a judicial decision by th
 		},
 		{
 			"term": "Short Sale",
-			"definition": "AKA&#58; Settled for Less, Discounted Payoff, Equity Deficient &lt;br&gt; A short sale is the sale of a house in which the proceeds are less than what the owner still owes on the mortgage. The lender agrees to payoff of a lesser amount than actually owed, even on a current mortgage, to facilitate the sale of the property to a third party." 
+			"definition": "A short sale is the sale of a house in which the proceeds are less than what the owner still owes on the mortgage. The lender agrees to payoff of a lesser amount than actually owed, even on a current mortgage, to facilitate the sale of the property to a third party." 
 		},
 		{
 			"term": "Deed-in-Lieu",
