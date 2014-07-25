@@ -9,8 +9,10 @@
 	function foo(data){
     		// do stuff with JSON
     		var people = data.employees;
+    		var person = people[0];
+    		var name = person.firstName;
     		console.log(people[0]);
-    		document.getElementsByID('term').innerHTML = people[0].firstName;
+    		document.getElementsByID('term').innerHTML = name;
     	}
 
     	var script = document.createElement('script');
