@@ -12,7 +12,7 @@ readJson(
 		},
 		{
 			"term": "Foreclosure",
-			"definition": "AKA: Breach, Court Sale, Deed Substitution of Trustee, Lis Pendens, Notice of Pendency, Sheriff&#39;s Sale, Trustee Sale.
+			"definition": "AKA&#58; Breach, Court Sale, Deed Substitution of Trustee, Lis Pendens, Notice of Pendency, Sheriff&#39;s Sale, Trustee Sale.
 A foreclosure is a specific legal process in which a lender attempts to recover the balance of a loan from a client who has stopped making payments by forcing the sale of the mortgaged property." 
 		},
 		{
