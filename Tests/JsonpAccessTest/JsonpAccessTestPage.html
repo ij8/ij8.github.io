@@ -6,9 +6,17 @@
 	<title>XmlAccessTestPage</title>
 	<link rel="stylesheet" type="text/css" href="main.css" />
 	<script type="text/javascript">
-		function test(data)	{ console.log(data)	}
-		get_jsonp("http://twitter.com/users/oscargodson.json?callback=test")
-	</script>
+	function foo(data){
+    		// do stuff with JSON
+    		console.log(data);
+    	}
+
+    	var script = document.createElement('script');
+    	script.src = '//example.com/path/to/jsonp?callback=foo'
+
+    	document.getElementsByTagName('head')[0].appendChild(script);
+		// or document.head.appendChild(script) in modern browsers
+</script>
 
 </head>
 <body>
