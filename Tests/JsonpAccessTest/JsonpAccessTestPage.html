@@ -8,7 +8,8 @@
 	<script type="text/javascript">
 	function foo(data){
     		// do stuff with JSON
-    		console.log(data);
+    		// console.log(data);
+    		console.log(data.employees);
     	}
 
     	var script = document.createElement('script');
@@ -19,6 +20,7 @@
 		// document.head.appendChild(script);
 
 		console.log(script);
+		foo(script);
 </script>
 
 </head>
