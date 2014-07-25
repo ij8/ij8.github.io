@@ -35,7 +35,7 @@ readJson(
         },
         {
             "term": "Deed-in-Lieu",
-            "definition": "A deed-in-lieu of foreclosure is a transaction in which the deed to the property is transferred back to the servicer. &lt;br&gt; When determining if the client meets the approved deed-in-lieu timeline, use the date of the foreclosure or the date the property transferred out of the foreclosed client&#39;s name, whichever is most recent."
+            "definition": "A deed-in-lieu of foreclosure is a transaction in which the deed to the property is transferred back to the servicer. &lt;br/&gt; When determining if the client meets the approved deed-in-lieu timeline, use the date of the foreclosure or the date the property transferred out of the foreclosed client&#39;s name, whichever is most recent."
         },
         {
             "term": "College Savings Plan",
