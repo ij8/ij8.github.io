@@ -4,7 +4,7 @@ readJson(
 
 		{
 			"term": "Bankruptcy",
-			"definition": "Bankruptcy (BK) is defined as the client’s application for court ordered release or restructuring of debt."
+			"definition": "Bankruptcy (BK) is defined as the client&#39;s application for court ordered release or restructuring of debt."
 		},
 		{
 			"term": "Consumer Credit Counseling",
@@ -12,12 +12,12 @@ readJson(
 		},
 		{
 			"term": "Foreclosure",
-			"definition": "AKA: Breach, Court Sale, Deed Substitution of Trustee, Lis Pendens, Notice of Pendency, Sheriff’s Sale, Trustee Sale.
+			"definition": "AKA: Breach, Court Sale, Deed Substitution of Trustee, Lis Pendens, Notice of Pendency, Sheriff&#39;s Sale, Trustee Sale.
 A foreclosure is a specific legal process in which a lender attempts to recover the balance of a loan from a client who has stopped making payments by forcing the sale of the mortgaged property." 
 		},
 		{
 			"term": "Modifications",
-			"definition": "A loan modification is a change to one or more of the terms of a client's loan and usually results in a payment that the client can afford. A modification is evidenced by a status on the credit report, the payoff or a new Note. &lt;br&gt; Common terms for a modification include but are not limited to: Partial Payment Forbearance (Principal or Interest), Modified, Principal Deferral, Interest Rate Reduction, Term Extension, Conditional Forbearance." 
+			"definition": "A loan modification is a change to one or more of the terms of a client&#39;s loan and usually results in a payment that the client can afford. A modification is evidenced by a status on the credit report, the payoff or a new Note. &lt;br&gt; Common terms for a modification include but are not limited to: Partial Payment Forbearance (Principal or Interest), Modified, Principal Deferral, Interest Rate Reduction, Term Extension, Conditional Forbearance." 
 		},
 		{
 			"term": "Public Records",
@@ -39,7 +39,7 @@ A judgment is a legal document stating the reasons for a judicial decision by th
 		},
 		{
 			"term": "Deed-in-Lieu",
-			"definition": "A deed-in-lieu of foreclosure is a transaction in which the deed to the property is transferred back to the servicer. &lt;br&gt; When determining if the client meets the approved deed-in-lieu timeline, use the date of the foreclosure or the date the property transferred out of the foreclosed client's name, whichever is most recent." 
+			"definition": "A deed-in-lieu of foreclosure is a transaction in which the deed to the property is transferred back to the servicer. &lt;br&gt; When determining if the client meets the approved deed-in-lieu timeline, use the date of the foreclosure or the date the property transferred out of the foreclosed client&#39;s name, whichever is most recent." 
 		},
 		{
 			"term": "College Savings Plan",
@@ -47,7 +47,7 @@ A judgment is a legal document stating the reasons for a judicial decision by th
 		},
 		{
 			"term": "Pre-Paid Tuition Plan",
-			"definition": "Plan where participants lock in future tuition fees at today's prices." 
+			"definition": "Plan where participants lock in future tuition fees at today&#39;s prices." 
 		}
 
 	]
