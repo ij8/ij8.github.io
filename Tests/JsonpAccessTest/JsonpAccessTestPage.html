@@ -9,15 +9,27 @@
 	function foo(data){
     		// do stuff with JSON
     		var people = data.employees;
-    		for(i = 0; i < people.length; i++)	{
-    			var person = people[i];
-    			var name = person.firstName;
-    			if(name == "Anna")	{
-    				var lname = person.lastName;
-    				document.getElementById('term').innerHTML = name;
-    				document.getElementById('definition').innerHTML = lname;
-    			}
-    		}
+    		// for(i = 0; i < people.length; i++)	{
+    		// 	var person = people[i];
+    		// 	var name = person.firstName;
+    		// 	if(name == "Anna")	{
+    		// 		var lname = person.lastName;
+    		// 		document.getElementById('term').innerHTML = name;
+    		// 		document.getElementById('definition').innerHTML = lname;
+    		// 	}
+    		// }
+
+            for(var person in people)   {
+                if(people.hasOwnProperty(person))   {
+                    var name = person.firstName;
+                    if(name == "Anna")  {
+                        var lname = person.lastName;
+                        document.getElementById('term').innerHTML = name;
+                        document.getElementById('definition').innerHTML = lname;
+                    }
+                }
+            }
+
     	}
 
     	var script = document.createElement('script');
