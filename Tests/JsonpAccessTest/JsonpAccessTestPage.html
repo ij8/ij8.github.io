@@ -8,18 +8,14 @@
 	<script type="text/javascript">
 	function foo(data){
     		// do stuff with JSON
-    		// console.log(data);
-    		console.log(data.employees);
+    		var people = data.employees;
+    		console.log(people[0]);
     	}
 
     	var script = document.createElement('script');
-    	// script.src = 'http://ij8.github.io/Tests/JsonpAccessTest/JsonExample.json?callback=test'
     	script.src = 'http://people.duke.edu/~ij8/XmlAccessTest/JsonExample.json'
 
     	document.getElementsByTagName('head')[0].appendChild(script);
-		// document.head.appendChild(script);
-
-		console.log(script);
 		foo(script);
 </script>
 
