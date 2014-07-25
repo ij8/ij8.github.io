@@ -10,13 +10,14 @@
     		// do stuff with JSON
     		var people = data.employees;
     		console.log(people[0]);
+    		document.getElementsByID('term')[0].innerHtml = people[0].firstName;
     	}
 
     	var script = document.createElement('script');
     	script.src = 'http://people.duke.edu/~ij8/XmlAccessTest/JsonExample.json'
 
     	document.getElementsByTagName('head')[0].appendChild(script);
-		foo(script);
+		window.onload = foo(script)
 </script>
 
 </head>
