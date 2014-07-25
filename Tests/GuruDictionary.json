@@ -15,11 +15,11 @@ readJson(
         },
         {
             "term": "Modifications",
-            "definition": "A loan modification is a change to one or more of the terms of a client&#39;s loan and usually results in a payment that the client can afford. A modification is evidenced by a status on the credit report, the payoff or a new Note. &lt;br&gt; Common terms for a modification include but are not limited to: Partial Payment Forbearance (Principal or Interest), Modified, Principal Deferral, Interest Rate Reduction, Term Extension, Conditional Forbearance."
+            "definition": "A loan modification is a change to one or more of the terms of a client&#39;s loan and usually results in a payment that the client can afford. A modification is evidenced by a status on the credit report, the payoff or a new Note. \n Common terms for a modification include but are not limited to: Partial Payment Forbearance (Principal or Interest), Modified, Principal Deferral, Interest Rate Reduction, Term Extension, Conditional Forbearance."
         },
         {
             "term": "Public Records",
-            "definition": "Public records are documents or pieces of information that are not considered confidential. The following are considered public records#58; &lt;br&gt; A judgment is a legal document stating the reasons for a judicial decision by the court against a debtor, usually indicating that the debtor owes further money. &lt;br&gt; A lien is a legal claim or form of security interest granted over an item of property to secure the payment of a debt. A lien is a legal claim or form of security interest granted over an item of property to secure the payment of a debt. A judgment is a legal document stating the reasons for a judicial decision by the court against a debtor&#44; usually indicating that the debtor owes further money."
+            "definition": "Public records are documents or pieces of information that are not considered confidential. The following are considered public records#58; \n A judgment is a legal document stating the reasons for a judicial decision by the court against a debtor, usually indicating that the debtor owes further money. \n A lien is a legal claim or form of security interest granted over an item of property to secure the payment of a debt. A lien is a legal claim or form of security interest granted over an item of property to secure the payment of a debt. A judgment is a legal document stating the reasons for a judicial decision by the court against a debtor&#44; usually indicating that the debtor owes further money."
         },
         {
             "term": "Reposessions",
@@ -27,7 +27,7 @@ readJson(
         },
         {
             "term": "Restructured Mortgage",
-            "definition": "A restructured mortgage, also known as an absolute forgiveness of debt, occurs when there is a modification of the original mortgage or an origination of a new mortgage that results in one of the following: &lt;br&gt; -Forgiveness of a portion of the principal balance or interest, on either a 1st or 2nd mortgage &lt;br&gt; -A principal curtailment by the investor &lt;br&gt; -A principal curtailment by the investor &lt;br&gt; -Conversion of a portion of the original mortgage to a subordinate mortgage or from secured to unsecured"
+            "definition": "A restructured mortgage, also known as an absolute forgiveness of debt, occurs when there is a modification of the original mortgage or an origination of a new mortgage that results in one of the following: \n -Forgiveness of a portion of the principal balance or interest, on either a 1st or 2nd mortgage \n -A principal curtailment by the investor \n -A principal curtailment by the investor \n -Conversion of a portion of the original mortgage to a subordinate mortgage or from secured to unsecured"
         },
         {
             "term": "Short Sale",
@@ -35,7 +35,7 @@ readJson(
         },
         {
             "term": "Deed-in-Lieu",
-            "definition": "A deed-in-lieu of foreclosure is a transaction in which the deed to the property is transferred back to the servicer. &lt;br/&gt; When determining if the client meets the approved deed-in-lieu timeline, use the date of the foreclosure or the date the property transferred out of the foreclosed client&#39;s name, whichever is most recent."
+            "definition": "A deed-in-lieu of foreclosure is a transaction in which the deed to the property is transferred back to the servicer. \n When determining if the client meets the approved deed-in-lieu timeline, use the date of the foreclosure or the date the property transferred out of the foreclosed client&#39;s name, whichever is most recent."
         },
         {
             "term": "College Savings Plan",
