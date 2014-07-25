@@ -9,10 +9,15 @@
 	function foo(data){
     		// do stuff with JSON
     		var people = data.employees;
-    		var person = people[0];
-    		var name = person.firstName;
-    		console.log(people[0]);
-    		document.getElementById('term').innerHTML = name;
+    		for(var key in people)	{
+    			var person = people[0];
+    			var name = person.firstName;
+    			if(name == "John")	{
+    				var lname = person.lastName;
+    				document.getElementById('term').innerHTML = name;
+    				document.getElementById('definition').innerHTML = lname;
+    			}
+    		}
     	}
 
     	var script = document.createElement('script');
