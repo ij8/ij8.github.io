@@ -1,50 +1,93 @@
 readJson(
 {
     "GuruDictionary": [
+
+
         {
             "term": "Bankruptcy",
             "definition": "Bankruptcy (BK) is defined as the client&#39;s application for court ordered release or restructuring of debt."
         },
+
         {
             "term": "Consumer Credit Counseling",
             "definition": "Consumer Credit Counseling (CCC) is typically a paid service for consumers that helps them set up a budget and repayment plan with creditors. The counselor also usually tries to work with creditors to lower interest rates and fees."
         },
+
         {
             "term": "Foreclosure",
             "definition": "A foreclosure is a specific legal process in which a lender attempts to recover the balance of a loan from a client who has stopped making payments by forcing the sale of the mortgaged property."
         },
+
         {
             "term": "Modifications",
             "definition": "A loan modification is a change to one or more of the terms of a client&#39;s loan and usually results in a payment that the client can afford. A modification is evidenced by a status on the credit report, the payoff or a new Note. \n Common terms for a modification include but are not limited to: Partial Payment Forbearance (Principal or Interest), Modified, Principal Deferral, Interest Rate Reduction, Term Extension, Conditional Forbearance."
         },
+
         {
             "term": "Public Records",
             "definition": "Public records are documents or pieces of information that are not considered confidential. The following are considered public records: \n A judgment is a legal document stating the reasons for a judicial decision by the court against a debtor, usually indicating that the debtor owes further money. \n A lien is a legal claim or form of security interest granted over an item of property to secure the payment of a debt. A lien is a legal claim or form of security interest granted over an item of property to secure the payment of a debt. A judgment is a legal document stating the reasons for a judicial decision by the court against a debtor&#44; usually indicating that the debtor owes further money."
         },
+
         {
             "term": "Reposessions",
             "definition": "Repossessions refer to a process where a financial institution or auto lender can take back an object, usually a vehicle, which was either used as collateral, rented, or leased in a transaction because payments are not being made."
         },
+
         {
             "term": "Restructured Mortgage",
             "definition": "A restructured mortgage, also known as an absolute forgiveness of debt, occurs when there is a modification of the original mortgage or an origination of a new mortgage that results in one of the following: \n -Forgiveness of a portion of the principal balance or interest, on either a 1st or 2nd mortgage \n -A principal curtailment by the investor \n -A principal curtailment by the investor \n -Conversion of a portion of the original mortgage to a subordinate mortgage or from secured to unsecured"
         },
+
         {
             "term": "Short Sale",
             "definition": "A short sale is the sale of a house in which the proceeds are less than what the owner still owes on the mortgage. The lender agrees to payoff of a lesser amount than actually owed, even on a current mortgage, to facilitate the sale of the property to a third party."
         },
+
         {
             "term": "Deed-in-Lieu",
             "definition": "A deed-in-lieu of foreclosure is a transaction in which the deed to the property is transferred back to the servicer. \n When determining if the client meets the approved deed-in-lieu timeline, use the date of the foreclosure or the date the property transferred out of the foreclosed client&#39;s name, whichever is most recent."
         },
+
         {
             "term": "College Savings Plan",
             "definition": "Plan where funds are contributed to a state-managed investement account in exchange for federal tax-free earnings."
         },
+
         {
             "term": "Pre-Paid Tuition Plan",
             "definition": "Plan where participants lock in future tuition fees at today&#39;s prices."
+        },
+
+        {
+            "term": "Bob Walters",
+            "definition": "According to the Quicken Loans Press Room, he's the Chief Economist and Vice President of the Capital Markets Group for Quicken Loans inc. But really, he's just one sweet dude."
+        },
+
+        {
+            "term": "Dan Gilbert",
+            "definition": "AKA Danny G, AKA Mr. G, AKA Boss Man, AKA Head Honcho, AKA Big Guns, AKA you get my point. He runs the show at Quicken Loans and the FOC."
+        },
+
+        {
+            "term": "Bill Emerson",
+            "definition": "He's CEO bitch."
+        },
+
+        {
+            "term": "In-Young Jo",
+            "definition": "Some call him the Guru of Gurus, others call him the prodigal intern. All we really know is, he created the diciontary and definitely wrote this part of it."
+        },
+
+        {
+            "term": "Nick Sorscher",
+            "definition": "He's....well he's just Nick. He loves ping pong and slushies."
+        },
+
+        {
+            "term": "Nima Esmailimokaram",
+            "definition": "A smart Iranian fellow whose love for well designed code parallels a mothers's love for her children. Props to you for spelling his full name correctly."
         }
+
     ]
 }
 )
