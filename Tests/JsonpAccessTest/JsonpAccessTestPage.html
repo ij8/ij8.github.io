@@ -9,8 +9,7 @@
 	function foo(data){
     		// do stuff with JSON
     		var people = data.employees;
-    		for(var key in people)	{
-    			var person = people[0];
+    		for(var person in people)	{
     			var name = person.firstName;
     			if(name == "Anna")	{
     				var lname = person.lastName;
