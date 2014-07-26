@@ -41,7 +41,7 @@ max-width: 62.5rem;
   border-bottom-color: #f2f2f2;
 }
 
-.top-bar h1 a {
+.top-bar a {
   cursor: pointer;
   font-color: #f2f2f2;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
