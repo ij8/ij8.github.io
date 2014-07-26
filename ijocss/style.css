@@ -30,6 +30,18 @@ margin-bottom: 0;
 max-width: 62.5rem;
 }
 
+.top-bar {
+  overflow: hidden;
+  height: 45px;
+  line-height: 45px;
+  position: relative;
+  margin-bottom: 0; 
+}
+
+.top-bar .button  {
+  
+}
+
 .button {
   border-style: solid;
   border-width: 0px;
