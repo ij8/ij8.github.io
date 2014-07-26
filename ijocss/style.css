@@ -58,6 +58,10 @@ max-width: 62.5rem;
   margin-right: 10px;
 }
 
+.top-bar .large-link a:hover, .top-bar .small-link a:hover  {
+  color:#454545;
+} 
+
 .top-bar .large-link, .top-bar .large-text{
   font-size: medium;
 }
