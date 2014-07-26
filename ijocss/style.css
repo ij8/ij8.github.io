@@ -43,7 +43,7 @@ max-width: 62.5rem;
   border-bottom-color: #f2f2f2;
 }
 
-.top-bar .largelink a {
+.top-bar .large-link a {
   cursor: pointer;
   color: #747474;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -57,7 +57,7 @@ max-width: 62.5rem;
   display: inline-block;
 }
 
-.top-bar .smalllink  a {
+.top-bar .small-link  a {
   cursor: pointer;
   color: #747474;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
