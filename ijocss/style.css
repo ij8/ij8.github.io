@@ -35,15 +35,15 @@ max-width: 62.5rem;
   height: 45px;
   line-height: 45px;
   position: relative;
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
   margin-bottom: 0; 
   border-bottom: solid;
   border-bottom-width: 1px;
   border-bottom-color: #f2f2f2;
 }
 
-.top-bar .large-link a {
+.top-bar .large-link, .top-bar .small-link  {
   cursor: pointer;
   color: #747474;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -57,19 +57,12 @@ max-width: 62.5rem;
   display: inline-block;
 }
 
-.top-bar .small-link  a {
-  cursor: pointer;
-  color: #747474;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: normal;
+.top-bar .large-link {
+  font-size: medium;
+}
+
+.top-bar .small-link {
   font-size: small;
-  line-height: normal;
-  position: relative;
-  text-decoration: none;
-  text-align: center;
-  -webkit-appearance: none;
-  -webkit-border-radius: 0;
-  display: inline-block;
 }
 
 .button {
