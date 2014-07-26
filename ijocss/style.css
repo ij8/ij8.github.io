@@ -41,9 +41,23 @@ max-width: 62.5rem;
   border-bottom-color: #f2f2f2;
 }
 
-.top-bar a {
+.top-bar .largelink a {
   cursor: pointer;
-  color: #f2f2f2;
+  color: #747474;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  line-height: normal;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  display: inline-block;
+}
+
+.top-bar .smalllink  a {
+  cursor: pointer;
+  color: #747474;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
