@@ -79,7 +79,7 @@ max-width: 62.5rem;
   font-size: small;
 }
 
-.little-flag  {
+.top-bar .little-flag  {
   display: inline-block;
   float: right;
 }
