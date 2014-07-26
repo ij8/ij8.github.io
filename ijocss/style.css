@@ -36,10 +36,27 @@ max-width: 62.5rem;
   line-height: 45px;
   position: relative;
   margin-bottom: 0; 
+  border-bottom: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #f2f2f2;
 }
 
-.top-bar .button  {
-  
+.top-bar h1 a {
+  cursor: pointer;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  line-height: normal;
+  margin: 0 0 1.25rem;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  display: inline-block;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1.0625rem;
+  padding-left: 2rem;
 }
 
 .button {
