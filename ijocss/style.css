@@ -58,7 +58,7 @@ max-width: 62.5rem;
   margin-right: 10px;
 }
 
-.top-bar .large-link a:hover, .top-bar .small-link a:hover  {
+.top-bar a:hover  {
   color:#222222;
 } 
 
