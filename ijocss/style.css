@@ -55,6 +55,7 @@ max-width: 62.5rem;
   -webkit-appearance: none;
   -webkit-border-radius: 0;
   display: inline-block;
+  margin-right: 10px;
 }
 
 .top-bar .large-link {
