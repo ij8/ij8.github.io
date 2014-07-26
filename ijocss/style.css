@@ -80,6 +80,7 @@ max-width: 62.5rem;
 }
 
 .little-flag  {
+  display: inline-block;
   float: right;
 }
 
