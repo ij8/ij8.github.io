@@ -58,8 +58,17 @@ max-width: 62.5rem;
   margin-right: 10px;
 }
 
-.top-bar .large-link {
+.top-bar .large-link, .top-bar .large-text{
   font-size: medium;
+}
+
+.top-bar .large-text  {
+  color: #747474;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  line-height: normal;
+  display: inline-block;
+  margin-right: 10px;
 }
 
 .top-bar .small-link {
