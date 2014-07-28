@@ -29,7 +29,7 @@ readJson(
         },
 
         {
-            "term": "Reposessions",
+            "term": "Repossessions",
             "definition": "Repossessions refer to a process where a financial institution or auto lender can take back an object, usually a vehicle, which was either used as collateral, rented, or leased in a transaction because payments are not being made."
         },
 
@@ -80,7 +80,7 @@ readJson(
 
         {
             "term": "Nick Sorscher",
-            "definition": "He's....well he's just Nick. He loves ping pong and slushies."
+            "definition": "He's....well he's Nick. He loves ping pong, coffee, and working on Guru."
         },
 
         {

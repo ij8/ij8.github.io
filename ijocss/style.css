@@ -79,11 +79,6 @@ max-width: 62.5rem;
   font-size: small;
 }
 
-.top-bar .little-flag  {
-  display: inline-block;
-  float: right;
-}
-
 .button {
   border-style: solid;
   border-width: 0px;
