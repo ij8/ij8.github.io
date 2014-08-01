@@ -55,7 +55,7 @@ readJson(
 
         {
             "term": "Pre-Paid Tuition Plan",
-            "definition": "Plan where participants lock in future tuition fees at today&#39;s prices."
+            "definition": "Plan where participants lock in future tuition fees at today's prices."
         },
 
         {
@@ -70,7 +70,7 @@ readJson(
 
         {
             "term": "Bill Emerson",
-            "definition": "He's CEO bitch."
+            "definition": "&quot;He's CEO bitch.&quot;"
         },
 
         {
@@ -80,7 +80,7 @@ readJson(
 
         {
             "term": "Nick Sorscher",
-            "definition": "He's....well he's Nick. He loves ping pong, coffee, and working on Guru."
+            "definition": "An intern who only needs three things in life: ping pong, coffee, and working on Guru."
         },
 
         {
