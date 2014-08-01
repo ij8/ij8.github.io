@@ -6,7 +6,7 @@ foo({
         },
         {
             "firstName": "Anna",
-            "lastName": "Smith"
+            "lastName": "&quot;Smith&quot;"
         },
         {
             "firstName": "Peter",
