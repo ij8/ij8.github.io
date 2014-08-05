@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<title>JsonpAccessTestPage</title>
+	<link rel="stylesheet" type="text/css" href="main.css" />
+	<script type="text/javascript">
+	function foo(data){
+    		// do stuff with JSON
+    		var updates = data.ProductUpdates;
+            var numUpdates = 0;
+            for(var update in updates)   {
+                if(updates.hasOwnProperty(update))   {
+                    numUpdates++;
+                }
+            }
+            if(numUpdates > 5)  {
+                for(i = 0; i < 5; i++) {
+                var update = updates[i];
+                var date = update.date;
+                var link = update.link;
+                var info = update.info;
+                var newUpdate = document.createElement("div");
+                var dateNode = document.createTextNode(date);
+                newUpdate.appendChild(textNode);
+                var linkElement=document.createElement("a");
+                linkElement.href=link;
+                linkElement.innerHTML=info;
+                newUpdate.appendChild(linkElement);
+                }
+            }   
+    	}
+
+    	var script = document.createElement('script');
+    	script.src = 'http://people.duke.edu/~ij8/ProductUpdateTest/testupdates.json'
+
+    	document.getElementsByTagName('head')[0].appendChild(script);
+		window.onload = foo(script)
+</script>
+
+</head>
+<body>
+	<div class="main-container">
+		<div>Hello World</div>
+        <div id="num"></div>
+		<div id="term"></div>
+		<div id="definition"></div>
+	</div>
+</body>
+</html>
