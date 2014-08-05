@@ -8,8 +8,11 @@
 	function foo(data){
     		// do stuff with JSON
     		var updates = data.ProductUpdates;
-            for(i = 0; i < 5; i++) {
-                var update = updates[i];
+            var index = 0;
+            var count = 0;
+            while(count < 5) {
+                var update = updates[index];
+                if(update.product != "Charles Schwab")  {
                 var newUpdate = document.createElement("div");
                 var dateNode = document.createTextNode(update.date + " ");
                 newUpdate.appendChild(dateNode);
@@ -19,6 +22,9 @@
                 newUpdate.appendChild(linkElement);
                 var container = document.getElementById("updatecontainer");
                 container.appendChild(newUpdate);
+                count++;
+                }
+                index++;
             }
     	}
 
