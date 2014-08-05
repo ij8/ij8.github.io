@@ -8,45 +8,18 @@
 	function foo(data){
     		// do stuff with JSON
     		var updates = data.ProductUpdates;
-            var numUpdates = 0;
-            for(var update in updates)   {
-                if(updates.hasOwnProperty(update))   {
-                    numUpdates++;
-                }
-            }
-            if(numUpdates >= 5)  {
-                /*
-                var update = updates[0];
-                for(var key in update)  {
-                    alert(key + '=' + update[key]);
-                }
-                var date = update.date;
-                var link = update.link;
-                var info = update.info;
-                document.getElementById('update').innerHTML = numUpdates;
-                document.getElementById('date').innerHTML = date;
-                document.getElementById('link').innerHTML = link;
-                document.getElementById('info').innerHTML = info;
-                */
-                
-                for(i = 0; i < 5; i++) {
+            for(i = 0; i < 5; i++) {
                 var update = updates[i];
-                var date = update.date;
-                var link = update.link;
-                var info = update.info;
                 var newUpdate = document.createElement("div");
-                var dateNode = document.createTextNode(date);
-                newUpdate.appendChild(dateNode + " ");
+                var dateNode = document.createTextNode(update.date + " ");
+                newUpdate.appendChild(dateNode);
                 var linkElement=document.createElement("a");
-                linkElement.href=link;
-                linkElement.innerHTML=info;
+                linkElement.href=update.link;
+                linkElement.innerHTML=update.info;
                 newUpdate.appendChild(linkElement);
                 var container = document.getElementById("updatecontainer");
                 container.appendChild(newUpdate);
-                }
-                
-
-            }   
+            }
     	}
 
     	var script = document.createElement('script');
