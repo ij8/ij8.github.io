@@ -15,6 +15,15 @@
                 }
             }
             if(numUpdates >= 5)  {
+                var update = updates[0];
+                var date = update.date;
+                var link = update.link;
+                var info = update.info;
+                document.getElementById('date').innerHTML = date;
+                document.getElementById('link').innerHTML = link;
+                document.getElementById('info').innerHTML = info;
+
+                /*
                 for(i = 0; i < 5; i++) {
                 var update = updates[i];
                 var date = update.date;
@@ -28,6 +37,8 @@
                 linkElement.innerHTML=info;
                 newUpdate.appendChild(linkElement);
                 }
+                */
+
             }   
     	}
 
@@ -42,9 +53,9 @@
 <body>
 	<div class="main-container">
 		<div>Hello World</div>
-        <div id="num"></div>
-		<div id="term"></div>
-		<div id="definition"></div>
+        <div id="date"></div>
+		<div id="link"></div>
+		<div id="info"></div>
 	</div>
 </body>
 </html>
