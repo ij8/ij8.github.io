@@ -5,31 +5,31 @@ readProductupJson(
           "date":"01-Aug-2014",
           "product":"Charles Schwab",
           "link":"http://quniverse/teams/capitalmarkets/Product%20Announcements/CS_Product_Announcement_HELOC%20FICO%20and%20CLTV.pdf",
-          "info":" "
+          "info":"This shouldn't come up"
      },
      {
           "date":"30-Jul-2014",
           "product":"Non- Agency Jumbo",
           "link":"http://quniverse/teams/capitalmarkets/Product%20Announcements/QJ%20Jumbo%20is%20the%20Champion.pdf",
-          "info":" "
+          "info":"Jumbo Champ"
      },
      {
           "date":"28-Jul-2014",
           "product":"FHA",
           "link":"http://quniverse/teams/capitalmarkets/Product%20Announcements/FHA-Streamline-Test.pdf",
-          "info":" "
+          "info":"FHA Streamline"
      },
      {
           "date":"28-Jul-2014",
           "product":"Charles Schwab",
           "link":"http://quniverse/teams/capitalmarkets/Product%20Announcements/CS_Product_Announcement_PAL.pdf",
-          "info":" "
+          "info":"This shouldn't come up"
      },
      {
           "date":"25-Jul-2014",
           "product":"Agency;#FHA;#Non- Agency Jumbo;#VA",
           "link":"http://quniverse/teams/capitalmarkets/Product%20Announcements/Reserves%20for%20Multiple%20Loans.pdf",
-          "info":" "
+          "info":"Reserves for Multiple Loans"
      },
      {
           "date":"25-Jul-2014",
@@ -41,7 +41,7 @@ readProductupJson(
           "date":"25-Jul-2014",
           "product":"Non- Agency Jumbo",
           "link":"http://quniverse/teams/capitalmarkets/Product%20Announcements/QJ%20Jumbo%20Races%20Ahead.pdf",
-          "info":" "
+          "info":"QJ Jumbo Races Ahead"
      },
      {
           "date":"23-Jul-2014",
