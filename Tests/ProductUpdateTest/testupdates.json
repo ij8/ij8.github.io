@@ -2,7 +2,7 @@ foo({
     "ProductUpdates":[
     {
           "date":"01-Aug-2014",
-          "product":"Charles Schwab",
+          "product":" ",
           "link":"https://www.google.com/",
           "info":"google"
      },
@@ -20,7 +20,7 @@ foo({
      },
      {
           "date":"28-Jul-2014",
-          "product":"Charles Schwab",
+          "product":" ",
           "link":"http://www.quickenloans.com/",
           "info":"quickenloans"
      },
