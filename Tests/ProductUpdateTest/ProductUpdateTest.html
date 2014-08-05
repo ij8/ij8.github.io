@@ -16,13 +16,16 @@
             }
             if(numUpdates >= 5)  {
                 var update = updates[0];
-                var datez = update.date;
-                var linkz = update.link;
-                var infoz = update.info;
+                for(var key in update)  {
+                    alert(key + '=' + update[key]);
+                }
+                var date = update.date;
+                var link = update.link;
+                var info = update.info;
                 document.getElementById('update').innerHTML = numUpdates;
-                document.getElementById('date').innerHTML = datez;
-                document.getElementById('link').innerHTML = linkz;
-                document.getElementById('info').innerHTML = infoz;
+                document.getElementById('date').innerHTML = date;
+                document.getElementById('link').innerHTML = link;
+                document.getElementById('info').innerHTML = info;
 
                 /*
                 for(i = 0; i < 5; i++) {
