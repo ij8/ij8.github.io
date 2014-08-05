@@ -19,6 +19,7 @@
                 var date = update.date;
                 var link = update.link;
                 var info = update.info;
+                document.getElementById('update').innerHTML = update;
                 document.getElementById('date').innerHTML = date;
                 document.getElementById('link').innerHTML = link;
                 document.getElementById('info').innerHTML = info;
@@ -53,6 +54,7 @@
 <body>
 	<div class="main-container">
 		<div>Hello World</div>
+        <div id="update"></div>
         <div id="date"></div>
 		<div id="link"></div>
 		<div id="info"></div>
