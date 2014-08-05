@@ -1,34 +1,34 @@
 foo({ 
     "ProductUpdates":[
     {
-          "date:":"01-Aug-2014",
-          "product:":"Charles Schwab",
-          "link:":"https://www.google.com/",
-          "info:":"google"
+          "date":"01-Aug-2014",
+          "product":"Charles Schwab",
+          "link":"https://www.google.com/",
+          "info":"google"
      },
      {
-          "date:":"30-Jul-2014",
-          "product:":"Non- Agency Jumbo",
-          "link:":"http://www.apple.com/",
-          "info:":"apple"
+          "date":"30-Jul-2014",
+          "product":"Non- Agency Jumbo",
+          "link":"http://www.apple.com/",
+          "info":"apple"
      },
      {
-          "date:":"28-Jul-2014",
-          "product:":"FHA",
-          "link:":"http://www.wikipedia.org/",
-          "info:":"wikipedia"
+          "date":"28-Jul-2014",
+          "product":"FHA",
+          "link":"http://www.wikipedia.org/",
+          "info":"wikipedia"
      },
      {
-          "date:":"28-Jul-2014",
-          "product:":"Charles Schwab",
-          "link:":"http://www.quickenloans.com/",
-          "info:":"quickenloans"
+          "date":"28-Jul-2014",
+          "product":"Charles Schwab",
+          "link":"http://www.quickenloans.com/",
+          "info":"quickenloans"
      },
      {
-          "date:":"10-Jul-2006",
-          "product:":"Agency",
-          "link:":"https://www.facebook.com/",
-          "info:":"facebook"
+          "date":"10-Jul-2006",
+          "product":"Agency",
+          "link":"https://www.facebook.com/",
+          "info":"facebook"
      }
      ] 
 })
