@@ -1,4 +1,4 @@
-{ 
+foo({ 
     "ProductUpdates":[
     {
           "date:":"01-Aug-2014",
@@ -31,4 +31,4 @@
           "info:":"facebook"
      }
      ] 
-}
+})
