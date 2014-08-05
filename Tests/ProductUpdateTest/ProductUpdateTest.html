@@ -41,6 +41,8 @@
                 linkElement.href=link;
                 linkElement.innerHTML=info;
                 newUpdate.appendChild(linkElement);
+                var container = document.getElementById("updatecontainer");
+                container.appendChild(newUpdate);
                 }
                 
 
@@ -62,6 +64,7 @@
         <div id="date"></div>
 		<div id="link"></div>
 		<div id="info"></div>
+        <div id="updatecontainer"></div>
 	</div>
 </body>
 </html>
