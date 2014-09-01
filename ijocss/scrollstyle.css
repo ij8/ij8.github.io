@@ -32,7 +32,7 @@ body {
 }
 
 /* add some padding to force scrollbars */
-.parallax__layer {
+.parallax_layer {
   padding: 100vh 0;
 }
 
