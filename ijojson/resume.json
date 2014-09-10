@@ -1,0 +1,15 @@
+readResumeJson(
+{
+
+    "about":{
+        "title":""
+    }
+
+    "education": {
+            "school": "Duke University",
+            "location": "Durham, NC",
+            "degree": "BSE Electrical and Computer Engineering; BS Economics with Finance Concentration; Minor Computer Science",
+            "graddate": "May 2016"
+    },
+}
+)
