@@ -116,19 +116,7 @@ h1 {
 .profile-container:hover div{
   background-color: rgba(255, 255, 255, 0.8);
 }
-.profile-cover-text{
-  /*Transition for text*/
-  -webkit-transition: color 500ms linear;
-  -moz-transition: color 500ms linear;
-  -o-transition: color 500ms linear;
-  -ms-transition: color 500ms linear;
-  transition: color 500ms linear;
-}
 
-.profile-cover-text {
-  padding:30px;
-  color: #747474;
-}
 /*
 .profile-container  {
   width: 200px;
