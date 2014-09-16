@@ -103,6 +103,7 @@ h1 {
   width: 500px;
   z-index: 200;
   position: relative;
+  color: rgba(200, 200, 200, 0.8);
   -webkit-transition: color 1000ms linear;
   -moz-transition: color 1000ms linear;
   -o-transition: color 1000ms linear;
@@ -111,7 +112,7 @@ h1 {
 }
 
 .profile-container:hover  {
-  color: rgba(200, 200, 200, 0.8);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .row {
