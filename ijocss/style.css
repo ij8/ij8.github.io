@@ -89,7 +89,7 @@ h1 {
   vertical-align: center;
 }
 
-.profile-container   {
+.profile-container, .profile-container div, .profile-container img   {
   border-radius: 200px;
 }
 
