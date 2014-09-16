@@ -22,7 +22,7 @@ h1 {
 }
 
 #header {
-  background-color: #ecf0f1;
+  background-color: rgba(236, 240, 241, 0.8);
   color: white;
   position: fixed;
   top: 0;
