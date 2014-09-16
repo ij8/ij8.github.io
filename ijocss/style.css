@@ -90,10 +90,27 @@ h1 {
 }
 
 .profile-container, .profile-cover, .profile   {
-  height: 200px;
   border-radius: 200px;
 }
 
+.profile-container{
+  position:relative;
+  width:200px;
+  height:200px;
+  border:1px solid red;
+}
+.profile-container img{
+  max-width:100%;
+}
+.profile-container div{
+  position:absolute;
+  top:0;left:0;right:0;bottom:0;
+  background:transparent;
+}
+.profile-container:hover div{
+  background:rgba(255, 255, 255, 0.8);
+}
+/*
 .profile-container  {
   width: 200px;
   z-index: 200;
@@ -119,11 +136,7 @@ h1 {
 .profile-container:hover .profile-cover {
   background-color: rgba(255, 255, 255, 0.8);
 }
-
-.profile-container{position:relative;width:200px;height:200px;border:1px solid red;}
-.profile-container img{max-width:100%;}
-.profile-container div{position:absolute;top:0;left:0;right:0;bottom:0;opacity:0.6;background:transparent;}
-.profile-container:hover div{background:#BFBFBF;}
+*/
 
 .row {
   width: 100%;
