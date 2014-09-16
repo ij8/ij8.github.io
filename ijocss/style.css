@@ -133,7 +133,8 @@ h1 {
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
-  position: absolute;
+  position: relative;
+  z-index: 100;
   text-decoration: none;
   text-align: center;
   -webkit-appearance: none;
