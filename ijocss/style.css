@@ -89,7 +89,7 @@ h1 {
   vertical-align: center;
 }
 
-.profile, .profile-container  {
+.profile, .profile-container, .profile-cover  {
   height: 200px;
   border-radius: 200px;
 }
@@ -99,24 +99,24 @@ h1 {
   position: relative;
 }
 
-.profile-container  {
-  width: 500px;
-  z-index: 200;
-  position: relative;
-  background-color: rgba(200, 200, 200, 0.8);
-}
-  /*
-  -webkit-transition: color 1000ms linear;
-  -moz-transition: color 1000ms linear;
-  -o-transition: color 1000ms linear;
-  -ms-transition: color 1000ms linear;
-  transition: color 1000ms linear;
+.profile-cover  {
+  position: absolute;
+  background-color: transparent;
+  -webkit-transition: background-color 1000ms linear;
+  -moz-transition: background-color 1000ms linear;
+  -o-transition: background-color 1000ms linear;
+  -ms-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
 }
 
-.profile-container:hover  {
-  color: rgba(255, 255, 255, 0.8);
+.profile-cover:hover{
+  background-color: rgba(255, 255, 255, 0.8);
 }
-*/
+.profile-container  {
+  width: 200px;
+  z-index: 200;
+  position: relative;
+}
 
 .row {
   width: 100%;
