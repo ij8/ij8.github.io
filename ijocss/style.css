@@ -89,9 +89,15 @@ h1 {
   vertical-align: center;
 }
 
-.profile, .profile-container, .profile-cover  {
+.profile-container, .profile-cover, .profile   {
   height: 200px;
   border-radius: 200px;
+}
+
+.profile-container  {
+  width: 200px;
+  z-index: 200;
+  position: relative;
 }
 
 .profile {
@@ -109,13 +115,8 @@ h1 {
   transition: background-color 1000ms linear;
 }
 
-.profile-cover:hover{
+.profile-container:hover .profile-cover {
   background-color: rgba(255, 255, 255, 0.8);
-}
-.profile-container  {
-  width: 200px;
-  z-index: 200;
-  position: relative;
 }
 
 .checked{position:relative;width:200px;height:200px;border:1px solid red;}
