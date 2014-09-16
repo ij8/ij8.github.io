@@ -104,7 +104,7 @@ h1 {
 .profile-container div{
   position:absolute;
   top:0;left:0;right:0;bottom:0;
-  background:transparent;
+  background-color:transparent;
   color: transparent;
   /*Transition for background*/
   -webkit-transition: background-color 500ms linear;
@@ -114,7 +114,7 @@ h1 {
   transition: background-color 500ms linear;
 }
 .profile-container:hover div{
-  background:rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 .profile-cover-text{
   /*Transition for text*/
