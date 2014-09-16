@@ -118,6 +118,11 @@ h1 {
   position: relative;
 }
 
+.checked{position:relative;width:200px;height:200px;border:1px solid red;}
+.checked img{max-width:100%;}
+.checked div{position:absolute;top:0;left:0;right:0;bottom:0;opacity:0.6;background:transparent;}
+.checked:hover div{background:#BFBFBF;}
+
 .row {
   width: 100%;
   margin-left: auto;
