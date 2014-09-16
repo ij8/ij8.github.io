@@ -104,7 +104,7 @@ h1 {
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
-  position: relative;
+  position: absolute;
   text-decoration: none;
   text-align: center;
   -webkit-appearance: none;
