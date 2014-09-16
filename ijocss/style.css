@@ -95,7 +95,7 @@ h1 {
 }
 
 .profile-container:hover  {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(200, 200, 200, 0.8);
   /*
   -webkit-transition: background-color 1000ms linear;
   -moz-transition: background-color 1000ms linear;
