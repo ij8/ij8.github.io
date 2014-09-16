@@ -89,9 +89,12 @@ h1 {
   vertical-align: center;
 }
 
-.profile  {
+.profile, .profile-container  {
   height: 200px;
   border-radius: 200px;
+}
+
+.profile-container  {
   -webkit-transition: background-color 1000ms linear;
   -moz-transition: background-color 1000ms linear;
   -o-transition: background-color 1000ms linear;
