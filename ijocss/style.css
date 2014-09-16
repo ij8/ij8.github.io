@@ -50,6 +50,11 @@ h1 {
   display: inline-block;
 }
 
+#header .header-text  {
+   margin-right: 10px;
+   margin-left: 10px;
+}
+
 #header .header-link {
   cursor: pointer;
 }
