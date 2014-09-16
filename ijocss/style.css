@@ -105,6 +105,9 @@ h1 {
   position:absolute;
   top:0;left:0;right:0;bottom:0;
   background:transparent;
+  color: transparent;
+  text-align: center;
+  vertical-align: center;
   -webkit-transition: background-color 1000ms linear;
   -moz-transition: background-color 1000ms linear;
   -o-transition: background-color 1000ms linear;
@@ -113,6 +116,7 @@ h1 {
 }
 .profile-container:hover div{
   background:rgba(255, 255, 255, 0.8);
+  color: #747474;
 }
 
 /*
