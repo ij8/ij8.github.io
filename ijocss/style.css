@@ -96,20 +96,12 @@ h1 {
 
 .profile {
   z-index: 100;
-  -webkit-transition: color 1000ms linear;
-  -moz-transition: color 1000ms linear;
-  -o-transition: color 1000ms linear;
-  -ms-transition: color 1000ms linear;
-  transition: color 1000ms linear;
-}
-
-.profile:hover  {
-  color: rgba(200, 200, 200, 0.8);
 }
 
 .profile-container  {
   width: 500px;
   z-index: 200;
+  position: relative;
   -webkit-transition: background-color 1000ms linear;
   -moz-transition: background-color 1000ms linear;
   -o-transition: background-color 1000ms linear;
