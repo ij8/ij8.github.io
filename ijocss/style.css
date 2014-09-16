@@ -37,8 +37,7 @@ h1 {
   margin: 10px;
 }
 
-#header .header-link {
-  cursor: pointer;
+#header .header-link, #header .header-text {
   color: #747474;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
@@ -49,6 +48,10 @@ h1 {
   -webkit-appearance: none;
   -webkit-border-radius: 0;
   display: inline-block;
+}
+
+#header .header-link {
+  cursor: pointer;
 }
 
 #header a:hover {
