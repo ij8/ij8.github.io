@@ -37,7 +37,7 @@ h1 {
   margin: 10px;
 }
 
-#header .link {
+#header .header-link {
   cursor: pointer;
   color: #747474;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
