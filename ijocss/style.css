@@ -94,6 +94,15 @@ h1 {
   border-radius: 200px;
 }
 
+.profile-container:hover  {
+  background-color: rgba(255, 255, 255, 0.8);
+  -webkit-transition: background-color 1000ms linear;
+  -moz-transition: background-color 1000ms linear;
+  -o-transition: background-color 1000ms linear;
+  -ms-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+}
+
 .row {
   width: 100%;
   margin-left: auto;
