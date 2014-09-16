@@ -96,6 +96,7 @@ h1 {
 
 .profile {
   z-index: 100;
+  position: relative;
 }
 
 .profile-container  {
