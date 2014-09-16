@@ -23,12 +23,6 @@ h1 {
 
 #header {
   background-color: rgba(255, 255, 255, 0.8);
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  line-height: normal;
-  position: relative;
-  text-decoration: none;
-  text-align: center;
   color: white;
   position: fixed;
   top: 0;
@@ -41,6 +35,20 @@ h1 {
 }
 #header #header-content {
   margin: 10px;
+}
+
+#header .link {
+  cursor: pointer;
+  color: #747474;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  line-height: normal;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  display: inline-block;
 }
 
 .row {
