@@ -94,7 +94,13 @@ h1 {
   border-radius: 200px;
 }
 
+.profile {
+  z-index: 100;
+}
+
 .profile-container  {
+  width: 200px;
+  z-index: 200;
   -webkit-transition: background-color 1000ms linear;
   -moz-transition: background-color 1000ms linear;
   -o-transition: background-color 1000ms linear;
