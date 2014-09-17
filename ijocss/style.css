@@ -121,7 +121,7 @@ h1 {
 .profile-container span{
   position:absolute;
   top:0;left:0;right:0;bottom:0;
-  font-size: 5px;
+  font-size: 10px;
   color: transparent;
   margin-top: 70px;
   /*Transition for background*/
