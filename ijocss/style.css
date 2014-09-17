@@ -103,7 +103,7 @@ h1 {
   max-width:100%;
   padding: 10px;
 }
-.profile-container div{
+.profile-container div, .profile-container span{
   position:absolute;
   top:0;left:0;right:0;bottom:0;
   color: transparent;
