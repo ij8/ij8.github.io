@@ -115,11 +115,6 @@ h1 {
   -o-transition: background-color 250ms linear;
   -ms-transition: background-color 250ms linear;
   transition: background-color 250ms linear;
-  -webkit-transition: color 250ms linear;
-  -moz-transition: color 250ms linear;
-  -o-transition: color 250ms linear;
-  -ms-transition: color 250ms linear;
-  transition: color 250ms linear;
 }
 .profile-container:hover div{
   background-color: rgba(230, 126, 34, 0.8);
