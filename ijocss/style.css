@@ -120,6 +120,11 @@ h1 {
   background-color: rgba(230, 126, 34, 0.8);
 }
 
+.profile-container a{
+  position:absolute;
+  top:0;left:0;right:0;bottom:0;
+}
+
 /*
 .profile-container  {
   width: 200px;
