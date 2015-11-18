@@ -131,6 +131,18 @@ h1 {
   -ms-transition: color 250ms linear;
   transition: color 250ms linear;
 }
+.profile-container p{
+  position:absolute;
+  top:0;left:0;right:0;bottom:0;
+  font-size: 35px;
+  color: transparent;
+  margin-top: 70px;
+  -webkit-transition: color 250ms linear;
+  -moz-transition: color 250ms linear;
+  -o-transition: color 250ms linear;
+  -ms-transition: color 250ms linear;
+  transition: color 250ms linear;
+}
 
 .profile-container:hover span{
   color: rgb(255, 255, 255);
