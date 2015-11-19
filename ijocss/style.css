@@ -131,6 +131,7 @@ h1 {
 
 .profile-container:hover span{
   color: rgb(255, 255, 255);
+  opacity: 1;
 }
 
 .profile-container a{
