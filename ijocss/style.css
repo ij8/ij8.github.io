@@ -89,6 +89,7 @@ h1 {
   position:relative;
   width:220px;
   height:220px;
+  padding:10px;
 }
 .profile-container img{
   height: 200px;
