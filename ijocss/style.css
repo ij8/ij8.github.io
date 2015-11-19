@@ -75,9 +75,11 @@ h1 {
 #footer {
   width: 50%;
   height: 150px;
-  padding: 300px;
+  padding: 50px;
   margin: auto;
   color: #747474;
+  text-align: center;
+  vertical-align: center;
 }
 
 #footer .dark-container {
