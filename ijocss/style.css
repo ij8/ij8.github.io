@@ -126,6 +126,7 @@ h1 {
   font-size: 35px;
   color: transparent;
   margin-top: 70px;
+  opacity: 0;
 }
 
 .profile-container:hover span{
