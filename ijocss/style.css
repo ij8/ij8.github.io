@@ -154,6 +154,12 @@ h1 {
   max-width: 50rem;
 }
 
+.description {
+  margin: auto;
+  width: 300px;
+  text-align: justify;
+}
+
 .button {
   border-style: solid;
   border-width: 0px;
