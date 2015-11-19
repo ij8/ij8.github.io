@@ -3,7 +3,7 @@ body {
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: 'Verlag A','Verlag B';
+  font-family: "Garamond";
   /*font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;*/
   font-weight: normal;
   font-style: normal;
@@ -149,8 +149,16 @@ h1 {
 
 .description {
   margin: auto;
-  width: 400px;
+  width: 500px;
   text-align: justify;
+}
+
+.description h1 {
+  padding-bottom: 20px;
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(0,0,0);
+  text-align: right;
 }
 
 .button {
