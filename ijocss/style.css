@@ -161,7 +161,7 @@ h1 {
   text-align: left;
 }
 
-.description a {
+.description a, i{
   color: black;
   font-family: 'Merriweather', serif;
   font-weight: bold;
