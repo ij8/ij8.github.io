@@ -161,6 +161,22 @@ h1 {
   text-align: left;
 }
 
+.description a {
+  color: black;
+  font-weight: bold;
+  line-height: normal;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  display: inline-block;
+}
+
+.description a:hover {
+  color: blue;
+}
+
 .button {
   border-style: solid;
   border-width: 0px;
