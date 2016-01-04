@@ -163,6 +163,7 @@ h1 {
 
 .description a {
   color: black;
+  font-family: 'Merriweather', serif;
   font-weight: bold;
   line-height: normal;
   position: relative;
