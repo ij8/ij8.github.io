@@ -161,9 +161,8 @@ h1 {
   text-align: left;
 }
 
-.description a, i{
+.description a {
   color: black;
-  font-family: 'Merriweather', serif;
   font-weight: bold;
   line-height: normal;
   position: relative;
