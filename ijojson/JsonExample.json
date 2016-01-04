@@ -1,0 +1,16 @@
+foo({
+    "employees": [
+        {
+            "firstName": "John",
+            "lastName": "Doe"
+        },
+        {
+            "firstName": "Anna",
+            "lastName": "&quot;Smith&quot;"
+        },
+        {
+            "firstName": "Peter",
+            "lastName": "Jones"
+        }
+    ]
+})
