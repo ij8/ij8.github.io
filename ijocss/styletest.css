@@ -189,14 +189,6 @@ h1 {
   -ms-text-justify: distribute-all-lines;
   text-justify: distribute-all-lines;
 }
-/*
-.stretch {
-    width: 100%;
-    display: inline-block;
-    font-size: 0;
-    line-height: 0
-}
-*/
 .description {
   position:relative;
   margin: auto;
