@@ -102,7 +102,7 @@ h1 {
   opacity: 1;
 }
 .profile-container img {
-  position:absolute;
+  position:relative;
   height: 200px;
   border-radius: 200px;
 }
