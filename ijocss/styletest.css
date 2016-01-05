@@ -80,15 +80,18 @@ h1 {
   text-align: center;
   vertical-align: center;
 }
-
-.profile-container  {
-  position:relative;
-  border-radius: 200px;
-  width:200px;
-  height:200px;
+.profile-container span {
+  position:absolute;
   top:0;left:0;right:0;bottom:0;
+  font-size: 35px;
   color: transparent;
-  background-color:transparent;
+  margin-top: 70px;
+  opacity: 0;
+  -webkit-transition: opacity 250ms linear;
+  -moz-transition: opacity 250ms linear;
+  -o-transition: opactiy 250ms linear;
+  -ms-transition: opacity 250ms linear;
+  transition: opacity 250ms linear;
 }
 .profile-container:hover span{
   color: rgb(255, 255, 255);
@@ -99,6 +102,13 @@ h1 {
   border-radius: 200px;
 }
 #p1 {
+  position:relative;
+  border-radius: 200px;
+  width:200px;
+  height:200px;
+  top:0;left:0;right:0;bottom:0;
+  color: transparent;
+  background-color:transparent;
   -webkit-transition: background-color 250ms linear;
   -moz-transition: background-color 250ms linear;
   -o-transition: background-color 250ms linear;
