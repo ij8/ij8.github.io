@@ -83,18 +83,22 @@ h1 {
 
 .profile-container  {
   position:relative;
-  width:220px;
-  height:220px;
+  border-radius: 200px;
+  width:200px;
+  height:200px;
   top:0;left:0;right:0;bottom:0;
   color: transparent;
   background-color:transparent;
-  margin: 10px;
   /*Transition for background*/
   -webkit-transition: background-color 250ms linear;
   -moz-transition: background-color 250ms linear;
   -o-transition: background-color 250ms linear;
   -ms-transition: background-color 250ms linear;
   transition: background-color 250ms linear;
+}
+
+.profile-container img{
+  height: 200px;
 }
 /*
 .profile-container, .profile-container div, .profile-container img   {
