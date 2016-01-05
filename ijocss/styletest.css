@@ -109,7 +109,7 @@ h1 {
   position: absolute;
 }
 #p1 div {
-  position:relative;
+  position:absolute;
   border-radius: 200px;
   width:200px;
   height:200px;
