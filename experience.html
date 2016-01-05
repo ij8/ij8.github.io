@@ -13,17 +13,22 @@
     for(var exp in exps)   {
       if(exps.hasOwnProperty(exp))   {
         numExp++;
+        var label = exp.label;
         var link = exp.link;
         var img = exp.img;
         var color = exp.color;
         var prof = document.createElement('div');
         var str1 = 'p'
         prof.id = str1.concat(numExp);
-        var str2 = '#';
-        var css = str2.concat(
+        var str2 = "<div class='profile-container'><img src=";
+        var content = str2.concat("'",link,"'/><div class='profile-cover'><span style='color: white;'>",
+          label,"</span></div><a href='",link,"'></a></div>");
+        prof.appendChild(document.createTextNode(content));
+        var str3 = '#';
+        var css = str3.concat(
           prof.id,'{display: inline-block;margin-right:25px;margin-left:25px;position:relative;border-radius: 200px;width:200px;height:200px;}',
-          str2,prof.id,'div {color: transparent;background-color:transparent;-webkit-transition: background-color 250ms linear;-moz-transition: background-color 250ms linear;-o-transition: background-color 250ms linear;-ms-transition: background-color 250ms linear;transition: background-color 250ms linear;}',
-          str2,prof.id,':hover div {background-color: rgba(230, 126, 34, 0.8);}')
+          str3,prof.id,'div {color: transparent;background-color:transparent;-webkit-transition: background-color 250ms linear;-moz-transition: background-color 250ms linear;-o-transition: background-color 250ms linear;-ms-transition: background-color 250ms linear;transition: background-color 250ms linear;}',
+          str3,prof.id,':hover div {background-color:',color,';}');
         var style = document.createElement('style');
         if(style.stylesheet)  {
           style.stylesheet.cssText = css;
@@ -31,7 +36,7 @@
         else {
           style.appendChild(document.createTextNode(css));
         }
-        document.getElementByTagName('head')[0].appendChild(style);
+        document.body.appendChild(style);
         document.getElementById('profiles').appendChild(prof);
       }
     }
