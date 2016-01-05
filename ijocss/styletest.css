@@ -80,6 +80,7 @@ h1 {
   text-align: center;
   vertical-align: center;
 }
+
 .profile-container span {
   position:absolute;
   top:0;left:0;right:0;bottom:0;
@@ -115,7 +116,7 @@ h1 {
   -ms-transition: background-color 250ms linear;
   transition: background-color 250ms linear;
 }
-#p1:hover {
+#p1:hover div {
   background-color: rgba(230, 126, 34, 0.8);
 }
 /*
