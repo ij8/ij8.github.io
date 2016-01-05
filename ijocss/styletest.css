@@ -99,6 +99,7 @@ h1 {
 
 .profile-container img{
   height: 200px;
+  border-radius: 200px;
 }
 /*
 .profile-container, .profile-container div, .profile-container img   {
