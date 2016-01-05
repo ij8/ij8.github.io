@@ -116,6 +116,7 @@ h1 {
   top:0;left:0;right:0;bottom:0;
 }
 #p1 {
+  float:left;
   display: inline-block;
   margin-right:0px;margin-left:0px;
   position:relative;
@@ -156,6 +157,7 @@ h1 {
   background-color: rgba(230, 126, 34, 0.8);
 }
 #p3 {
+  float:right;
   display: inline-block;
   margin-right:0px;margin-left:0px;
   position:relative;
@@ -173,6 +175,27 @@ h1 {
   transition: background-color 250ms linear;
 }
 #p3:hover div {
+  background-color: rgba(230, 126, 34, 0.8);
+}
+#p4 {
+  float:left;
+  display: inline-block;
+  margin-right:0px;margin-left:0px;
+  position:relative;
+  border-radius: 200px;
+  width:200px;
+  height:200px;
+}
+#p4 div {
+  color: transparent;
+  background-color:transparent;
+  -webkit-transition: background-color 250ms linear;
+  -moz-transition: background-color 250ms linear;
+  -o-transition: background-color 250ms linear;
+  -ms-transition: background-color 250ms linear;
+  transition: background-color 250ms linear;
+}
+#p4:hover div {
   background-color: rgba(230, 126, 34, 0.8);
 }
 .row {
