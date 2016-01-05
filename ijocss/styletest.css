@@ -114,12 +114,14 @@ h1 {
   position:absolute;
   top:0;left:0;right:0;bottom:0;
 }
-#p1 div {
+#p1 {
   position:relative;
-  border-radius: 100px;
+  border-radius: 200px;
   width:200px;
   height:200px;
   top:0;left:0;right:0;bottom:0;
+}
+#p1 div {
   color: transparent;
   background-color:transparent;
   -webkit-transition: background-color 250ms linear;
