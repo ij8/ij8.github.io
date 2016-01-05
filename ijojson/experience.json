@@ -15,8 +15,8 @@ foo({
     ]
     "experiences": [
         {
-            "link": "index.html"
-            "img": "images/profile.jpg"
+            "link": "index.html",
+            "img": "images/profile.jpg",
             "color": "rgba(230, 126, 34, 0.8)"
         }
 

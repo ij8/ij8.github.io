@@ -35,16 +35,6 @@
         document.getElementById('profiles').appendChild(prof);
       }
     }
-    for(i = 0; i < numPeople; i++)  {
-      var person = people[i];
-      var name = person.firstName;
-      if(name == "Anna")  {
-        var lname = person.lastName;
-        document.getElementById('num').innerHTML = numPeople;
-        document.getElementById('term').innerHTML = name;
-        document.getElementById('definition').innerHTML = lname;
-      }
-    }     
   }
   var script = document.createElement('script');
   script.src = 'ijojson/experience.json'
