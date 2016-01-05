@@ -86,6 +86,7 @@ h1 {
 }
 .profile-container span {
   position:absolute;
+  text-align: center;
   top:0;left:0;right:0;bottom:0;
   font-size: 35px;
   color: transparent;
