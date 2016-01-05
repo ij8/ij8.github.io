@@ -85,25 +85,38 @@ h1 {
   border-radius: 200px;
 }
 
+.profile-container  {
+  position:relative;
+  width:220px;
+  height:220px;
+  top:0;left:0;right:0;bottom:0;
+  color: transparent;
+  background-color:transparent;
+  margin: 10px;
+  /*Transition for background*/
+  -webkit-transition: background-color 250ms linear;
+  -moz-transition: background-color 250ms linear;
+  -o-transition: background-color 250ms linear;
+  -ms-transition: background-color 250ms linear;
+  transition: background-color 250ms linear;
+}
+/*
 .profile-container{
   position:relative;
   width:220px;
   height:220px;
 }
-/*
 .profile-container img{
   height: 200px;
   max-width:100%;
   padding:10px;
 }
-*/
 .profile-container div{
   position:absolute;
   top:0;left:0;right:0;bottom:0;
   color: transparent;
   background-color:transparent;
   margin: 10px;
-  /*Transition for background*/
   -webkit-transition: background-color 250ms linear;
   -moz-transition: background-color 250ms linear;
   -o-transition: background-color 250ms linear;
@@ -120,13 +133,11 @@ h1 {
   color: transparent;
   margin-top: 70px;
   opacity: 0;
-  /*Transition for text*/
   -webkit-transition: opacity 250ms linear;
   -moz-transition: opacity 250ms linear;
   -o-transition: opactiy 250ms linear;
   -ms-transition: opacity 250ms linear;
   transition: opacity 250ms linear;
-  */
 }
 
 .profile-container:hover span{
@@ -138,6 +149,7 @@ h1 {
   position:absolute;
   top:0;left:0;right:0;bottom:0;
 }
+*/
 
 .row {
   width: 100%;
