@@ -97,6 +97,15 @@ h1 {
   transition: background-color 250ms linear;
 }
 
+#1 {
+  background-color: rgba(230, 126, 34, 0.8);
+}
+
+.profile-container:hover span{
+  color: rgb(255, 255, 255);
+  opacity: 1;
+}
+
 .profile-container img{
   height: 200px;
   border-radius: 200px;
