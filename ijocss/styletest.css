@@ -81,10 +81,6 @@ h1 {
   vertical-align: center;
 }
 
-.profile-container, .profile-container div, .profile-container img   {
-  border-radius: 200px;
-}
-
 .profile-container  {
   position:relative;
   width:220px;
@@ -101,6 +97,10 @@ h1 {
   transition: background-color 250ms linear;
 }
 /*
+.profile-container, .profile-container div, .profile-container img   {
+  border-radius: 200px;
+}
+
 .profile-container{
   position:relative;
   width:220px;
