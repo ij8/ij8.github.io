@@ -1,0 +1,203 @@
+body {
+  background: white;
+  color: #222222;
+  padding: 0;
+  margin: 0;
+  font-family: "Garamond";
+  /*font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;*/
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  position: relative;
+  cursor: default; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 2.75rem;
+  font-weight: normal;
+  font-style: normal;
+}
+
+#header {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 125px;
+  padding: 0;
+  margin: 0;
+  z-index: 300;
+}
+#header #header-content {
+  margin: 10px;
+}
+
+#header .header-link, #header .header-text {
+  color: #747474;
+  font-weight: normal;
+  line-height: normal;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  display: inline-block;
+}
+
+#header .header-text  {
+   margin-right: 10px;
+   margin-left: 10px;
+}
+
+#header .header-link {
+  cursor: pointer;
+}
+
+#header a:hover {
+  color:#454545;
+}
+
+#header-block {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 125px;
+  padding: 0;
+  margin: 0;
+}
+
+#footer {
+  width: 500px;
+  padding: 40px;
+  margin: auto;
+  color: #747474;
+  text-align: center;
+  vertical-align: center;
+}
+
+.profile-container, .profile-container div, .profile-container img   {
+  border-radius: 200px;
+}
+
+.profile-container{
+  position:relative;
+  width:220px;
+  height:220px;
+}
+.profile-container img{
+  height: 200px;
+  max-width:100%;
+  padding:10px;
+}
+.profile-container div{
+  position:absolute;
+  top:0;left:0;right:0;bottom:0;
+  color: transparent;
+  background-color:transparent;
+  margin: 10px;
+  /*Transition for background*/
+  -webkit-transition: background-color 250ms linear;
+  -moz-transition: background-color 250ms linear;
+  -o-transition: background-color 250ms linear;
+  -ms-transition: background-color 250ms linear;
+  transition: background-color 250ms linear;
+}
+.profile-container:hover div{
+  background-color: rgba(230, 126, 34, 0.8);
+}
+.profile-container span{
+  position:absolute;
+  top:0;left:0;right:0;bottom:0;
+  font-size: 35px;
+  color: transparent;
+  margin-top: 70px;
+  opacity: 0;
+  /*Transition for text*/
+  -webkit-transition: opacity 250ms linear;
+  -moz-transition: opacity 250ms linear;
+  -o-transition: opactiy 250ms linear;
+  -ms-transition: opacity 250ms linear;
+  transition: opacity 250ms linear;
+  */
+}
+
+.profile-container:hover span{
+  color: rgb(255, 255, 255);
+  opacity: 1;
+}
+
+.profile-container a{
+  position:absolute;
+  top:0;left:0;right:0;bottom:0;
+}
+
+.row {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 50rem;
+}
+
+.description {
+  margin: auto;
+  width: 500px;
+  text-align: justify;
+}
+
+.description h1 {
+  padding-top:10px;
+  padding-bottom: 20px;
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(0,0,0);
+  text-align: left;
+}
+
+.description a {
+  color: black;
+  line-height: normal;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  display: inline-block;
+}
+
+.description a:hover {
+  color: blue;
+}
+
+.button {
+  border-style: solid;
+  border-width: 0px;
+  cursor: pointer;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  line-height: normal;
+  margin: 0 0 1.25rem;
+  position: relative;
+  z-index: 100;
+  text-decoration: none;
+  text-align: center;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  display: inline-block;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1.0625rem;
+  padding-left: 2rem;
+  font-size: 1rem;
+  background-color: #008cba;
+  border-color: #007095;
+  color: white;
+  transition: background-color 300ms ease-out; 
+}

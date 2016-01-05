@@ -8,11 +8,38 @@
   <script type="text/javascript">
   function foo(data){
     // do stuff with JSON
-    var people = data.employees;
-    var numPeople = 0;
-    for(var person in people)   {
-      if(people.hasOwnProperty(person))   {
-        numPeople++;
+    var exps = data.experiences;
+    var numExp = 0;
+    for(var exp in exps)   {
+      if(exps.hasOwnProperty(exp))   {
+        var link = exp.link;
+        var img = exp.img;
+        var color = exp.color;
+        var prof = document.createElement('div');
+        prof.id = numExp;
+        var css = string.concat('#',prof.id,' 
+          div{ position:absolute; 
+          top:0;left:0;right:0;bottom:0;
+          color: transparent;
+          background-color:transparent;
+          margin: 10px;
+          -webkit-transition: background-color 250ms linear;
+          -moz-transition: background-color 250ms linear;
+          -o-transition: background-color 250ms linear;
+          -ms-transition: background-color 250ms linear;
+          transition: background-color 250ms linear;
+          }',prof.id,':hover div{
+          background-color: ',color,';}')
+        var style = document.createElement('style');
+        if(style.stylesheet)  {
+          style.stylesheet.cssText = css;
+        }
+        else {
+          style.appendChild(document.createTextNode(css));
+        }
+        document.getElementByTagName('head')[0].appendChild(style);
+        document.getElementById('profiles').appendChild(prof);
+        numExp++;
       }
     }
     for(i = 0; i < numPeople; i++)  {
@@ -27,7 +54,7 @@
     }     
   }
   var script = document.createElement('script');
-  script.src = 'ijojson/JsonExample.json'
+  script.src = 'ijojson/experience.json'
   document.getElementsByTagName('head')[0].appendChild(script);
   window.onload = foo(script)
   </script>
@@ -46,6 +73,8 @@
   <div id="header-block"></div>
   <div class="row">
     <center>
+      <div id="profiles">
+      </div>
       <div class="description">
         <div>Hello World</div>
         <div id="num"></div>

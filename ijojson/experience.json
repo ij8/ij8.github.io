@@ -13,4 +13,12 @@ foo({
             "lastName": "Jones"
         }
     ]
+    "experiences": [
+        {
+            "link": "index.html"
+            "img": "images/profile.jpg"
+            "color": "rgba(230, 126, 34, 0.8)"
+        }
+
+    ]
 })
