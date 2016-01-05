@@ -114,7 +114,6 @@ h1 {
   position:absolute;
   top:0;left:0;right:0;bottom:0;
 }
-/*
 #p1 {
   position:relative;
   border-radius: 200px;
@@ -134,7 +133,6 @@ h1 {
 #p1:hover div {
   background-color: rgba(230, 126, 34, 0.8);
 }
-*/
 .row {
   width: 100%;
   margin-left: auto;
