@@ -115,7 +115,7 @@ h1 {
   top:0;left:0;right:0;bottom:0;
 }
 #p1 {
-  position:relative;
+  /*position:relative;*/
   border-radius: 200px;
   width:200px;
   height:200px;
@@ -134,7 +134,7 @@ h1 {
   background-color: rgba(230, 126, 34, 0.8);
 }
 #p2 {
-  position:relative;
+  /*position:relative;*/
   border-radius: 200px;
   width:200px;
   height:200px;
