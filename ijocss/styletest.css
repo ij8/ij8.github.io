@@ -135,6 +135,7 @@ h1 {
   background-color: rgba(230, 126, 34, 0.8);
 }
 #p2 {
+  margin-right:auto;margin-left:auto;
   position:relative;
   border-radius: 200px;
   width:200px;
