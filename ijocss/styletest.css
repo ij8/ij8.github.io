@@ -80,8 +80,10 @@ h1 {
   text-align: center;
   vertical-align: center;
 }
-
 .profile-container a {
+  position:absolute;
+}
+.profile-container span {
   position:absolute;
   top:0;left:0;right:0;bottom:0;
   font-size: 35px;
@@ -94,7 +96,7 @@ h1 {
   -ms-transition: opacity 250ms linear;
   transition: opacity 250ms linear;
 }
-.profile-container:hover a{
+.profile-container:hover span{
   color: rgb(255, 255, 255);
   opacity: 1;
 }
