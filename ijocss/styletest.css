@@ -89,26 +89,24 @@ h1 {
   top:0;left:0;right:0;bottom:0;
   color: transparent;
   background-color:transparent;
-  /*Transition for background*/
+}
+.profile-container:hover span{
+  color: rgb(255, 255, 255);
+  opacity: 1;
+}
+.profile-container img{
+  height: 200px;
+  border-radius: 200px;
+}
+#p1 {
   -webkit-transition: background-color 250ms linear;
   -moz-transition: background-color 250ms linear;
   -o-transition: background-color 250ms linear;
   -ms-transition: background-color 250ms linear;
   transition: background-color 250ms linear;
 }
-
-#p1 {
+#p1:hover {
   background-color: rgba(230, 126, 34, 0.8);
-}
-
-.profile-container:hover span{
-  color: rgb(255, 255, 255);
-  opacity: 1;
-}
-
-.profile-container img{
-  height: 200px;
-  border-radius: 200px;
 }
 /*
 .profile-container, .profile-container div, .profile-container img   {
