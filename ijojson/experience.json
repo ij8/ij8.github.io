@@ -15,34 +15,34 @@ foo({
     ],
     "experiences": [
         {
-            "label": "Me!",
+            "label": "IDC",
             "link": "index.html",
-            "img": "images/profile.jpg",
-            "color": "rgba(230, 126, 34, 0.8)"
+            "img": "images/eceidcpic.jpg",
+            "color": "rgba(52, 152, 219, 0.8)"
         },
         {
-            "label": "Me!",
+            "label": "Debugger",
             "link": "index.html",
-            "img": "images/profile.jpg",
-            "color": "rgba(230, 126, 34, 0.8)"
+            "img": "images/gamewindow2.jpg",
+            "color": "rgba(241, 196, 15, 0.8)"
         },
         {
-            "label": "Me!",
+            "label": "SLogo",
             "link": "index.html",
-            "img": "images/profile.jpg",
-            "color": "rgba(230, 126, 34, 0.8)"
+            "img": "images/slogowindow.jpg",
+            "color": "rgba(149, 165, 166, 0.8)"
         },
         {
-            "label": "Me!",
+            "label": "Springies",
             "link": "index.html",
-            "img": "images/profile.jpg",
-            "color": "rgba(230, 126, 34, 0.8)"
+            "img": "images/springieswindow.jpg",
+            "color": "rgba(46, 204, 113, 0.8)"
         },
         {
-            "label": "Me!",
+            "label": "Oogasalad",
             "link": "index.html",
-            "img": "images/profile.jpg",
-            "color": "rgba(230, 126, 34, 0.8)"
+            "img": "images/oogasaladwindow.jpg",
+            "color": "rgba(211, 84, 0, 0.8)"
         }
     ]
 })
