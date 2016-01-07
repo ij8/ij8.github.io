@@ -173,6 +173,7 @@ h1 {
 
 .description img {
   width:450px;
+  display:inline-block;
 }
 .description a {
   color: black;
