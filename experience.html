@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>In-Young Jo | About</title>
+  <title>In-Young Jo | Experience</title>
   <link rel="stylesheet" href="ijocss/style.css" />
   <script type="text/javascript">
   function foo(data){
@@ -23,7 +23,7 @@
       var color = exp.color;
       var prof = document.createElement('div');
       prof.id = "p" + String(numExp);
-      var content = "<div class='profile-container'><img src='"+String(link)+"'/><div class='profile-cover'><span style='color: white;'>"+String(label)+"</span></div><a href='"+String(link)+"'></a></div>";
+      var content = "<div class='profile-container'><img src='"+String(img)+"'/><div class='profile-cover'><span style='color: white;'>"+String(label)+"</span></div><a href='"+String(link)+"'></a></div>";
       prof.innerHTML = content;
       var css = "#"+String(prof.id)+"{display: inline-block;margin-right:25px;margin-left:25px;position:relative;border-radius: 200px;width:200px;height:200px;} #"+String(prof.id)+" div {color: transparent;background-color:transparent;-webkit-transition: background-color 250ms linear;-moz-transition: background-color 250ms linear;-o-transition: background-color 250ms linear;-ms-transition: background-color 250ms linear;transition: background-color 250ms linear;} #"+String(prof.id)+":hover div {background-color:',String(color),';}";
       var style = document.createElement('style');
