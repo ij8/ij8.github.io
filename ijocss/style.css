@@ -171,6 +171,9 @@ h1 {
   text-align: left;
 }
 
+.description img {
+  width:450px;
+}
 .description a {
   color: black;
   line-height: normal;
