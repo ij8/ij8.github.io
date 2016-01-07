@@ -16,31 +16,31 @@ foo({
     "experiences": [
         {
             "label": "IDC",
-            "link": "index.html",
+            "link": "Experiences/idc.html",
             "img": "images/eceidcsquare.jpg",
             "color": "rgba(52, 152, 219, 0.8)"
         },
         {
             "label": "Debugger",
-            "link": "index.html",
+            "link": "Experiences/debugger.html",
             "img": "images/debuggersquare.jpg",
             "color": "rgba(241, 196, 15, 0.8)"
         },
         {
             "label": "SLogo",
-            "link": "index.html",
+            "link": "Experiences/slogo.html",
             "img": "images/slogosquare.jpg",
-            "color": "rgba(149, 165, 166, 0.8)"
+            "color": "rgba(231, 76, 60, 0.8)"
         },
         {
             "label": "Springies",
-            "link": "index.html",
+            "link": "Experiences/springies.html",
             "img": "images/springiessquare.jpg",
             "color": "rgba(46, 204, 113, 0.8)"
         },
         {
             "label": "Oogasalad",
-            "link": "index.html",
+            "link": "Experiences/oogasalad.html",
             "img": "images/oogasaladsquare.jpg",
             "color": "rgba(211, 84, 0, 0.8)"
         }
