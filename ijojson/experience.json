@@ -17,31 +17,31 @@ foo({
         {
             "label": "IDC",
             "link": "index.html",
-            "img": "images/eceidcpic.jpg",
+            "img": "images/eceidcsquare.jpg",
             "color": "rgba(52, 152, 219, 0.8)"
         },
         {
             "label": "Debugger",
             "link": "index.html",
-            "img": "images/gamewindow2.jpg",
+            "img": "images/debuggersquare.jpg",
             "color": "rgba(241, 196, 15, 0.8)"
         },
         {
             "label": "SLogo",
             "link": "index.html",
-            "img": "images/slogowindow.jpg",
+            "img": "images/slogosquare.jpg",
             "color": "rgba(149, 165, 166, 0.8)"
         },
         {
             "label": "Springies",
             "link": "index.html",
-            "img": "images/springieswindow.jpg",
+            "img": "images/springiessquare.jpg",
             "color": "rgba(46, 204, 113, 0.8)"
         },
         {
             "label": "Oogasalad",
             "link": "index.html",
-            "img": "images/oogasaladwindow.jpg",
+            "img": "images/oogasaladsquare.jpg",
             "color": "rgba(211, 84, 0, 0.8)"
         }
     ]
