@@ -8,7 +8,6 @@
 	<script type="text/javascript">
 	function foo(data){
     		// do stuff with JSON
-            /*
     		var people = data.employees;
             var numPeople = 0;
             for(var person in people)   {
@@ -26,22 +25,6 @@
     				document.getElementById('definition').innerHTML = lname;
     			}
     		}
-            */
-            var people = data.employees;
-            var count = 0;
-            for(var person in people)   {
-                //if(people.hasOwnProperty(person))   {
-                    var name = person.firstName;
-                    if(name == "Anna")  {
-                        var lname = person.lastName;
-                        document.getElementById('num').innerHTML = count;
-                        document.getElementById('term').innerHTML = name;
-                        document.getElementById('definition').innerHTML = lname;
-                    }
-                    count++;
-                //}
-            }
-            
     	}
 
     	var script = document.createElement('script');
