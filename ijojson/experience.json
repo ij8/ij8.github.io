@@ -21,10 +21,10 @@ foo({
             "color": "rgba(52, 152, 219, 0.8)"
         },
         {
-            "label": "Debugger",
-            "link": "Experiences/debugger.html",
-            "img": "images/debuggersquare.jpg",
-            "color": "rgba(241, 196, 15, 0.8)"
+            "label": "Oogasalad",
+            "link": "Experiences/oogasalad.html",
+            "img": "images/oogasaladsquare.jpg",
+            "color": "rgba(211, 84, 0, 0.8)"
         },
         {
             "label": "SLogo",
@@ -39,10 +39,10 @@ foo({
             "color": "rgba(46, 204, 113, 0.8)"
         },
         {
-            "label": "Oogasalad",
-            "link": "Experiences/oogasalad.html",
-            "img": "images/oogasaladsquare.jpg",
-            "color": "rgba(211, 84, 0, 0.8)"
+            "label": "Debugger",
+            "link": "Experiences/debugger.html",
+            "img": "images/debuggersquare.jpg",
+            "color": "rgba(241, 196, 15, 0.8)"
         }
     ]
 })
