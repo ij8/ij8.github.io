@@ -30,7 +30,7 @@
             var people = data.employees;
             var count = 0;
             for(var person in people)   {
-                if(people.hasOwnProperty(person))   {
+                //if(people.hasOwnProperty(person))   {
                     var name = person.firstName;
                     if(name == "Anna")  {
                         var lname = person.lastName;
@@ -39,7 +39,7 @@
                         document.getElementById('definition').innerHTML = lname;
                     }
                     count++;
-                }
+                //}
             }
             
     	}
